@@ -41,25 +41,4 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 
 <br />
 
-## **Data Sources Used**
-
-
-
-
-
-### Company Goal
-
-In its early years, Cyclistic has established a sizable customer base via marketing geared toward general awareness, using its flexible pricing to appeal to broad consumer segments. However, Lily Moreno, the director of marketing, believes there's opportunity to convert casual riders into members. She believes a marketing campaign aimed at converting casual riders into annual members would help drive future growth.
-
---- 
-
-### Data Question At Hand
-
-Setting out to convert casual riders into members, the team needs to better understand how annual members and casual riders differ in their bike usage.
-
-
-### Scenario
-
-- **Profitability –** analysts found that annual members are more profitable than single-ride or day-pass casual riders 
-- **Marketing History –** general awareness, appealing to broad consumer segments
-- **Hypothesis –** converting casual riders into annual members would help drive future growth  <br />  
+## **Data Collection**
