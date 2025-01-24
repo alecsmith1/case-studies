@@ -9,25 +9,21 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
   
 ### About The Company
 
-- **Company:** Cyclistic - fictional Chicago **bike share** company
-- **Offering:** single-ride passes, full-day passes, annual memberships
-- **Fleet:** 5,824 bikes across 692 stations
+- **Company –** Cyclistic - fictional Chicago **bike share** company
+- **Offering –** single-ride passes, full-day passes, annual memberships
+- **Fleet –** 5,824 bikes across 692 stations
   
 ### Scenario
 
-- **Profitability Assessment:** finance analysts found that annual members are more profitable than casual riders (non-members who use single-ride or full-day passes)
-- **Marketing History:** general awareness, appealing to broad consumer segments
-- **Hypothesis:** converting casual riders into annual members would help drive future growth
+- **Profitability Assessment –** finance analysts found that annual members are more profitable than casual riders (non-members who use single-ride or full-day passes)
+- **Marketing History –** general awareness, appealing to broad consumer segments
+- **Hypothesis –** converting casual riders into annual members would help drive future growth
 
 ### Scenario 
 
-**Profitability Assessment** - 
+**Profitability Assessment –** Finance analysts found that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). 
 
-Finance analysts found that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). 
-
-**Hypothesis** - 
-
-Lily Moreno (Director of Marketing) believes there's opportunity to convert casual riders into members thanks to their awareness of Cyclistic's convenience and accessibility. She believes a marketing campaign aimed at converting casual riders into annual members would help drive future growth.
+**Hypothesis –** Lily Moreno (Director of Marketing) believes there's opportunity to convert casual riders into members thanks to their awareness of Cyclistic's convenience and accessibility. She believes a marketing campaign aimed at converting casual riders into annual members would help drive future growth.
 
 ---
 
