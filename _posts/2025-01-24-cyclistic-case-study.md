@@ -7,13 +7,13 @@ date: 2025-01-24
 
 Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading. <br />
   
-### **About The Company**
+## **About The Company**
 
 - **Company –** Cyclistic - fictional Chicago bike share company
 - **Offering –** single-ride passes, full-day passes, annual memberships
 - **Fleet –** 5,824 bikes across 692 stations <br />
 
-### **Scenario**
+## **Scenario**
 
 **Profitability Assessment –** <br />
 Finance analysts found that annual members are much more profitable than single-ride or day-pass casual riders. 
@@ -26,7 +26,7 @@ Lily Moreno (Director of Marketing) believes –
 1. There's opportunity to convert casual riders into members
 2. A marketing campaign aimed at converting casual riders into annual members would help drive future growth <br />
 
-### **Data Question**
+## **Data Question**
 
 With the team setting out to convert casual riders into members, I've been tasked with answering the question: ***How do annual members' and casual riders' bike usage differ?***
 
