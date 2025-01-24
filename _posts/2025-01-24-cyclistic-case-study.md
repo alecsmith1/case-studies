@@ -9,13 +9,13 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
   
 ### About The Company
 
-- **Company –** Cyclistic - fictional Chicago **bike share** company
+- **Company –** Cyclistic - fictional Chicago bike share company
 - **Offering –** single-ride passes, full-day passes, annual memberships
 - **Fleet –** 5,824 bikes across 692 stations
   
 ### Scenario
 
-- **Profitability Assessment –** finance analysts found that annual members are more profitable than casual riders (non-members who use single-ride or full-day passes)
+- **Profitability Assessment –** finance analysts found that annual members are more profitable than single-ride or day-pass casual riders
 - **Marketing History –** general awareness, appealing to broad consumer segments
 - **Hypothesis –** converting casual riders into annual members would help drive future growth
 
