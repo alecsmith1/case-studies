@@ -24,6 +24,8 @@ Cyclistic's marketing up to now has been geared toward general awareness and app
 **Hypothesis –** <br />
 Lily Moreno (Director of Marketing) believes there's opportunity to convert casual riders into members and that a marketing campaign aimed at converting casual riders into annual members would help drive future growth <br />
 
+--- <br />
+
 ## **Defining The Problem**
 
 **Business Task –** <br /> 
