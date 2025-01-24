@@ -12,25 +12,20 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
 - **Company:** Cyclistic - fictional Chicago **bike share** company
 - **Offering:** single-ride passes, full-day passes, annual memberships
 - **Fleet:** 5,824 bikes across 692 stations
-
-### About The Company 
-In 2016, the fictional bike-share company Cyclistic launched and has since grown to a fleet of 5,824 bicycles accessible via a network of 692 stations across Chicago.
-
-In its early years, Cyclistic has grown via marketing geared toward general awareness and appealing to broad consumer segments. Thanks to its offering of flexible price plans (single-ride passes, full-day passes, and annual memberships), the broad marketing efforts brought in a large customer-base.
-
---- 
   
 ### Scenario
 
-- **Current Profitability Assessment:** finance analysts found that annual members are more profitable than casual riders (non-members who use single-ride or full-day passes)
+- **Profitability Assessment:** finance analysts found that annual members are more profitable than casual riders (non-members who use single-ride or full-day passes)
 - **Marketing History:** general awareness, appealing to broad consumer segments
 - **Hypothesis:** converting casual riders into annual members would help drive future growth
 
 ### Scenario 
 
-Finance analysts at Cyclistic have come to understand that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). As such, they believe the key to future growth can be found in maximizing annual membership.
+**Profitability Assessment**
+Finance analysts found that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). 
 
-Lily Moreno, the director of marketing, believes there's solid opportunity to convert casual riders into members. Since casual riders are already aware of Cyclistic's convenience and accessibility, she believes a marketing campaign aimed at converting casual riders into annual members would help drive future growth.
+**Hypothesis**
+Lily Moreno (Director of Marketing) believes there's opportunity to convert casual riders into members thanks to their awareness of Cyclistic's convenience and accessibility. She believes a marketing campaign aimed at converting casual riders into annual members would help drive future growth.
 
 ---
 
