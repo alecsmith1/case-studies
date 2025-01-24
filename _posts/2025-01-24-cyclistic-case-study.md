@@ -6,14 +6,11 @@ date: 2025-01-24
 ---
 
 Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading.
-
----
   
 ### About Cyclistic
 
-- **Service:** Bike-share
+- **Company:** Fictional Chicago bike-share company
 - **Offering:** Single-ride passes, full day passes, annual memberships
-- **Launch:** 2016, Chicago
 - **Fleet:** 5,824 bikes across 692 stations
 - **Marketing History:** general awareness, appealing to broad consumer segments
 
