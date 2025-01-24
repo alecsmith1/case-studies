@@ -5,13 +5,13 @@ author: "Alec Smith"
 date: 2025-01-24
 ---
 
-Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading.
+Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading. <br />
   
 ### **About The Company**
 
 - **Company –** Cyclistic - fictional Chicago bike share company
 - **Offering –** single-ride passes, full-day passes, annual memberships
-- **Fleet –** 5,824 bikes across 692 stations
+- **Fleet –** 5,824 bikes across 692 stations <br />
 
 ### **Scenario**
 
@@ -24,7 +24,7 @@ Cyclistic's marketing up to now has been geared toward general awareness and app
 **Hypothesis –** <br />
 Lily Moreno (Director of Marketing) believes –
 1. There's opportunity to convert casual riders into members
-2. A marketing campaign aimed at converting casual riders into annual members would help drive future growth
+2. A marketing campaign aimed at converting casual riders into annual members would help drive future growth <br />
 
 ### **Data Question**
 
