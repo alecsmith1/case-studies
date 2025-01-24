@@ -6,12 +6,16 @@ date: 2025-01-24
 ---
 
 Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading. 
-  
+
+<br />
+
 ## **About The Company**
 
 - **Company –** Cyclistic - fictional Chicago bike share company
 - **Offering –** single-ride passes, full-day passes, annual memberships
 - **Fleet –** 5,824 bikes across 692 stations
+
+<br />
 
 ## **Company Status**
 
@@ -35,6 +39,7 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 - Lily Moreno – the director of marketing (my manager)
 - Executive Team – the team deciding whether to approve the recommended marketing program
 
+<br />
 
 ## **Data Sources Used**
 
