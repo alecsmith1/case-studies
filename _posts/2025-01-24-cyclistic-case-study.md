@@ -13,7 +13,7 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
 - **Offering –** single-ride passes, full-day passes, annual memberships
 - **Fleet –** 5,824 bikes across 692 stations <br />
 
-## **Scenario**
+## **Company Status**
 
 **Profitability Assessment –** <br />
 Finance analysts found that annual members are much more profitable than single-ride or day-pass casual riders. 
@@ -26,12 +26,18 @@ Lily Moreno (Director of Marketing) believes –
 1. There's opportunity to convert casual riders into members
 2. A marketing campaign aimed at converting casual riders into annual members would help drive future growth <br />
 
-## **Data Question**
+## **Defining The Problem**
 
-With the team setting out to convert casual riders into members, I've been tasked with answering the question: 
-- ***How do annual members' and casual riders' bike usage differ?***
+**Business Task –** <br /> 
+Analyze Cyclistic historical bike trip data to understand how annual members and casual riders use Cyclistic bikes differently.
+
+**Key Stakeholders –** <br />
+- Lily Moreno – the director of marketing (my manager)
+- Executive Team – the team deciding whether to approve the recommended marketing program
+
 
 ## **Data Sources Used**
+
 
 
 
