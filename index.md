@@ -1,4 +1,3 @@
-# Welcome!
 I'm Alec. 10 year paid ads pro. Recently converted data analytics specialist.
 
 ## About my work:
