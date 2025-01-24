@@ -1,5 +1,5 @@
 ---
-title: "Cyclistic Bike Share Membership"
+title: "Cyclistic Bike Share Case Study"
 subtitle: "Google Data Analytics Professional Certificate Case Study"
 author: "Alec Smith"
 date: 2025-01-24
@@ -8,7 +8,7 @@ date: 2025-01-24
 Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading.
 
 ---
-
+ 
 ### About Cyclistic
 
 In 2016, the fictional bike-share company Cyclistic launched and has since grown to an impressive fleet of 5,824 bicycles accessible via a network of 692 stations across Chicago.
@@ -16,7 +16,7 @@ In 2016, the fictional bike-share company Cyclistic launched and has since grown
 In its early years, Cyclistic has grown via marketing geared toward general awareness and appealing to broad consumer segments. Thanks to its offering of flexible price plans (single-ride passes, full-day passes, and annual memberships), the broad marketing efforts brought in a large customer-base.
 
 --- 
-
+ 
 ### Scenario
 
 Finance analysts at Cyclistic have come to understand that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). As such, they believe the key to future growth can be found in maximizing annual membership.
