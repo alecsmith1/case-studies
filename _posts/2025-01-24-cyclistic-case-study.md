@@ -21,10 +21,10 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
 
 ### Scenario 
 
-**Profitability Assessment**
+**Profitability Assessment** - 
 Finance analysts found that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). 
 
-**Hypothesis**
+**Hypothesis** -
 Lily Moreno (Director of Marketing) believes there's opportunity to convert casual riders into members thanks to their awareness of Cyclistic's convenience and accessibility. She believes a marketing campaign aimed at converting casual riders into annual members would help drive future growth.
 
 ---
