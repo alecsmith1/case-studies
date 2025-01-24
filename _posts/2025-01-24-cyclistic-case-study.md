@@ -11,11 +11,11 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
  
 ### About Cyclistic
 
-- **Service**: Bike-share
-- **Offering**: Single-ride passes, full day passes, annual memberships
-- **Launch**: 2016, Chicago
-- **Fleet**: 5,824 bikes across 692 stations
-- **Marketing History**: general awareness, appealing to broad consumer segments
+- **Service:** Bike-share
+- **Offering:** Single-ride passes, full day passes, annual memberships
+- **Launch:** 2016, Chicago
+- **Fleet:** 5,824 bikes across 692 stations
+- **Marketing History:** general awareness, appealing to broad consumer segments
 
 In 2016, the fictional bike-share company Cyclistic launched and has since grown to a fleet of 5,824 bicycles accessible via a network of 692 stations across Chicago.
 
@@ -24,6 +24,9 @@ In its early years, Cyclistic has grown via marketing geared toward general awar
 --- 
  
 ### Scenario
+
+- **Current Profitability Assessment:** Cyclistic finance analysts note that annual members are more profitable than casual riders (non-members who use single-ride or full-day passes)
+- 
 
 Finance analysts at Cyclistic have come to understand that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). As such, they believe the key to future growth can be found in maximizing annual membership.
 
