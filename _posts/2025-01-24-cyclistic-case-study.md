@@ -5,25 +5,27 @@ author: "Alec Smith"
 date: 2025-01-24
 ---
 
-Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading.  <br />  
+Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading.
   
 ### About The Company
 
 - **Company –** Cyclistic - fictional Chicago bike share company
 - **Offering –** single-ride passes, full-day passes, annual memberships
-- **Fleet –** 5,824 bikes across 692 stations  <br />  
+- **Fleet –** 5,824 bikes across 692 stations
 
 ### Scenario 
 
-**Profitability Assessment –**  <br />  
-Finance analysts found that annual members are much more profitable than casual riders (non-members who use single-ride or full-day passes). 
+**Profitability Assessment –**
+Finance analysts found that annual members are much more profitable than single-ride or day-pass casual riders. 
 
-**Hypothesis –**  <br /> 
-Lily Moreno (Director of Marketing) believes there's opportunity to convert casual riders into members thanks to their awareness of Cyclistic's convenience and accessibility. She believes a marketing campaign aimed at converting casual riders into annual members would help drive future growth.    <br />  
+**Hypothesis –**
+Lily Moreno (Director of Marketing) believes –
+1. There's opportunity to convert casual riders into members
+2. A marketing campaign aimed at converting casual riders into annual members would help drive future growth
 
 ### Data Question
 
----
+
 
 ### Company Goal
 
