@@ -5,13 +5,13 @@ author: "Alec Smith"
 date: 2025-01-24
 ---
 
-Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading. Let's dive in!
+Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading.
 
 ---
 
 ### About Cyclistic
 
-In 2016, the fictional bike-share company Cyclistic launched in Chicago and has since grown to an impressive fleet of 5,824 bicycles accessible via a network of 692 stations across Chicago.
+In 2016, the fictional bike-share company Cyclistic launched and has since grown to an impressive fleet of 5,824 bicycles accessible via a network of 692 stations across Chicago.
 
 In its early years, Cyclistic has grown via marketing geared toward general awareness and appealing to broad consumer segments. Thanks to its offering of flexible price plans (single-ride passes, full-day passes, and annual memberships), the broad marketing efforts brought in a large customer-base.
 
