@@ -28,9 +28,13 @@ Lily Moreno (Director of Marketing) believes –
 
 ## **Data Question**
 
-With the team setting out to convert casual riders into members, I've been tasked with answering the question: ***How do annual members' and casual riders' bike usage differ?***
+With the team setting out to convert casual riders into members, I've been tasked with answering the question: 
+- ***How do annual members' and casual riders' bike usage differ?***
 
----
+## **Data Sources Used**
+
+
+
 
 ### Company Goal
 
