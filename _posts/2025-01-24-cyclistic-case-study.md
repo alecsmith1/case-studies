@@ -27,9 +27,9 @@ Lily Moreno (Director of Marketing) believes there's opportunity to convert casu
 ## **Defining The Problem**
 
 **Business Task –** <br /> 
-Analyze Cyclistic historical bike trip data to **_understand how annual members and casual riders use Cyclistic bikes differently._**
+Analyze Cyclistic historical bike trip data to understand how annual members and casual riders use Cyclistic bikes differently.
 
-**Key Stakeholders –** <br />
+**Key Stakeholders –**
 - Lily Moreno – the director of marketing (my manager)
 - Executive Team – the team deciding whether to approve the recommended marketing program
 
