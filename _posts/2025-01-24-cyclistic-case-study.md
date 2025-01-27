@@ -93,6 +93,8 @@ _Cleaned dataset schema:_ <br />
 
 I've conducted my data analysis in BigQuery via SQL. The steps of this analysis, consisting of the issues I set out to resolve and the questions I set out to answer, are laid out below, along with the corresponding SQL queries used to garner the data and insights I sought.
 
+<br />
+
 ##### **One bit of cleanup** <br />
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
