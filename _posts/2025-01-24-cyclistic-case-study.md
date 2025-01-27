@@ -69,3 +69,9 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
 7. **Used formula `=LEN()` to check fields for uniform length** (fields checked: `ride_id`, `rideable_type`, `start_station_id`, `end_station_id`, and `member_casual`). No `=TRIM()` required.
 8. **Checked data formats**, setting a uniform Date format in the `started_at` and `ended_at` columns to ensure uniformity.
 
+#### **Data Augmentation - Steps Taken**
+
+1. **Created field** `ride_duration_hrs` via formula: `=(D2-C2)*24` - formula subtracts start date from end date, multiplying by 24 to get hours as a whole number with 2 decimal points when formatted as a number.
+2. **Created field** `start_day_of_week` via formula: `=WEEKDAY(C2,2)` - formula denotes the day of the week that the date fell on, with the `2` at the end of the equation noting that Monday is day "1" and Sunday is day "7".
+3. **Created field** `route` via formula: `=CONCATENATE(H2," ","–"," ",J2)` … formula results in syntax `Start Station Name – End Station Name` and will allow for finding most frequently rented routes for each casual and member users.
+
