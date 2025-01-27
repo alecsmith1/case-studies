@@ -101,8 +101,8 @@ SET route = REPLACE(route, 'Ð', '-')
 WHERE route LIKE '%Ð%';
 ```
 
-**Creating a temporary table**
-The dataset contained more fields than were of use in my analysis. As such, I created a temporary table, paring down the list of fields/columns to only those most useful to my analysis in order to streamline query results.
+**Creating a pared down table**
+The dataset contained more fields than were of use in my analysis. As such, I created a new table, paring down the list of fields/columns to only those most useful to my analysis in order to streamline query results.
 
 ```
 SELECT 
@@ -117,3 +117,15 @@ SELECT
 FROM 
   `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
 ```
+
+<img width="282" alt="schema - 2020_Q1_trip_data_pared" src="https://github.com/user-attachments/assets/994e6f33-3b09-470f-ad7b-418438ce5e16" />
+
+**Getting a count of member vs casual riders**
+To set the stage, I asked how many casual riders vs members there are. 
+
+```
+SELECT member_casual, COUNT(member_casual)
+FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
+GROUP BY member_casual
+```
+
