@@ -199,7 +199,7 @@ casual|7|14840
 
 ```
 SELECT 
-    member_casual,  -- Groups by rider type (member vs. casual)
+    member_casual,
     CASE
         WHEN day_of_week BETWEEN 1 AND 5 THEN 'Weekday'
         WHEN day_of_week IN (6, 7) THEN 'Weekend'
@@ -213,3 +213,9 @@ ORDER BY
     member_casual, 
     ride_category;
 ```
+
+member_casual	|day_of_week_category	|ride_count
+casual	|Weekday	|22272
+casual	|Weekend	|22305
+member	|Weekday	|310460
+member	|Weekend	|65543
