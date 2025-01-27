@@ -30,6 +30,10 @@ Lily Moreno (Director of Marketing) believes there's opportunity to convert casu
 
 <br />
 
+---
+
+<br />
+
 ## **Defining The Problem**
 
 **Business Task –** <br /> 
@@ -38,6 +42,10 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 **Key Stakeholders –**
 - Lily Moreno – the director of marketing (my manager)
 - Executive Team – the team deciding whether to approve the recommended marketing program
+
+<br />
+
+---
 
 <br />
 
@@ -53,9 +61,17 @@ _Raw dataset schema:_ <br />
 
 <br />
 
+---
+
+<br />
+
 ## **Data Processing** - _conducted in Excel_
 
 I've conducted my data processing and cleaning in Excel. The dataset was largely clean and complete. However, via sorting, filtering, verifying and transforming data types, and creating new data points and fields, I was able to ensure data integrity and cleanliness, as well as set up the additional fields that would provide for robust and streamlined upcoming analysis stages.
+
+<br />
+
+---
 
 <br />
 
@@ -66,9 +82,9 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
 3. **Checked all columns for blank fields**, removing the 1 record found with a blank field (`end_station_name` field).
 4. **Checked for outliers to ensure data isn't skewed** by sorting `ride_duration_hrs` ride duration column (created in dataset augmentation section below): <br />
 
-     a. Removed 2,500 records with bike rental duration of zero minutes. <br />
-     b. Removed 41 records bike rental duration longer than 366 hours (14 days). <br />
-     c. Removed 3,766 records with a ride route of *HQ QR - HQ QR* (ride started & finished at what appears to be Cyclistic headquarters), as these rides were almost all <1 minute or had a negative duration (end time was before start time). <br />
+     _a. Removed 2,500 records with bike rental duration of zero minutes._ <br />
+     _b. Removed 41 records bike rental duration longer than 366 hours (14 days)._ <br />
+     _c. Removed 3,766 records with a ride route of *HQ QR - HQ QR* (ride started & finished at what appears to be Cyclistic headquarters), as these rides were almost all <1 minute or had a negative duration (end time was before start time)._ <br />
      
 6. **Used formula** `=COUNTA(UNIQUE())` **to check distinct counts** of station names against station IDs to check for errant additional ID or name values (no issues found).
 7. **Used formula** `=LEN()` **to check fields for uniform length** (fields checked: `ride_id`, `rideable_type`, `start_station_id`, `end_station_id`, and `member_casual`). No `=TRIM()` required.
@@ -90,6 +106,8 @@ _Cleaned dataset schema:_ <br />
 <br />
 
 ---
+
+<br />
 
 ## **Data Analysis** - _conducted with SQL in BigQuery_
 
