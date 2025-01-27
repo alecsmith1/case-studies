@@ -131,3 +131,21 @@ FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data
 GROUP BY member_casual
 ```
 
+```
+member_casual	ride_count
+member	376003
+casual	44577
+```
+
+```
+member_casual|ride_count
+member|376003
+casual|44577
+```
+
+member_casual|ride_count
+member|376003
+casual|44577
+
+
+
