@@ -48,7 +48,7 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 - **Data Set –** For this study, I chose to use Q1 2020 data due to its accuracy and completeness and thanks to its robust nature, consisting of hundreds of thousands of records.
 - **Data Storage –** Data stored locally for the duration of the project as well as in BigQuery where SQL analysis was conducted.
 
-_Raw dataset schema:_
+_Raw dataset schema:_ <br />
 <img width="279" alt="schema - 2020_Q1_trip_data_raw" src="https://github.com/user-attachments/assets/b6f8a9d9-7454-4130-ad89-3f9e330627a4" />
 
 <br />
@@ -84,7 +84,7 @@ _*Number of Records - Starting out: 426,887, Post-cleaning: 420,580_
 2. **Created field** `start_day_of_week` via formula: `=WEEKDAY(C2,2)` - formula denotes the day of the week that the date fell on, with the `2` at the end of the equation noting that Monday is day "1" and Sunday is day "7".
 3. **Created field** `route` via formula: `=CONCATENATE(H2," ","–"," ",J2)` … formula results in syntax `Start Station Name – End Station Name` and will allow for finding most frequently rented routes for each casual and member users.
 
-_Cleaned dataset schema:_
+_Cleaned dataset schema:_ <br />
 <img width="279" alt="schema - 2020_Q1_trip_data_cleaned" src="https://github.com/user-attachments/assets/068d6d4a-4893-425c-b5ad-ddac4fdb139f" />
 
 <br />
@@ -119,7 +119,7 @@ FROM
   `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
 ```
 
-_Pared down dataset schema:_
+_Pared down dataset schema:_ <br />
 <img width="282" alt="schema - 2020_Q1_trip_data_pared" src="https://github.com/user-attachments/assets/994e6f33-3b09-470f-ad7b-418438ce5e16" />
 
 **Getting a count of member vs casual riders**
