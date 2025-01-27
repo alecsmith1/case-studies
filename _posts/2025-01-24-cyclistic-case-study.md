@@ -127,16 +127,16 @@ The dataset contained more fields than were of use in my analysis. As such, I cr
 
 ```
 SELECT 
-  started_at,
-  start_day_of_week,
-  ended_at,
-  ride_duration_hrs,
-  route,
-  start_station_name,
-  end_station_name,
-  member_casual
+    started_at,
+    start_day_of_week,
+    ended_at,
+    ride_duration_hrs,
+    route,
+    start_station_name,
+    end_station_name,
+    member_casual
 FROM 
-  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
+    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
 ```
 
 _Pared down dataset schema:_ <br />
@@ -149,12 +149,12 @@ To set the stage, I asked how many casual riders vs members there are.
 
 ```
 SELECT
-  member_casual,
-  COUNT(member_casual)
+    member_casual,
+    COUNT(member_casual)
 FROM
-  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
+    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
 GROUP BY
-  member_casual
+    member_casual
 ```
 
 member_casual|ride_count
@@ -168,17 +168,17 @@ Next I asked which days of the week members and casual riders used bikes in orde
 
 ```
 SELECT
-  member_casual,
-  start_day_of_week,
-  COUNT(start_day_of_week) AS num_of_rides
+    member_casual,
+    start_day_of_week,
+    COUNT(start_day_of_week) AS num_of_rides
 FROM
-  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
-  member_casual,
-  start_day_of_week
+    member_casual,
+    start_day_of_week
 ORDER BY
-  member_casual DESC,
-  start_day_of_week ASC
+    member_casual DESC,
+    start_day_of_week ASC
 ```
 
 member_casual|start_day_of_week|num_of_rides
@@ -230,4 +230,27 @@ member	|Weekend	|65543
 <br />
 
 #### **Assessing time-of-day bike usage**
+Following the day-of-week assessment, I wanted to hone in on which hours of the day members and casual riders each used Cyclistic bikes. The below SQL queries was utilized twice: once each to garner time-of-day bike usage for each members and casual riders.
 
+```
+SELECT 
+    member_casual,
+    EXTRACT(HOUR FROM TIMESTAMP(started_at)) AS hour_of_day,
+    COUNT(*) AS ride_count -- Count the number of rides
+FROM 
+    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+WHERE
+    member_casual = 'member' -- Query was run a 2nd time to assess 'casual' rider bike usage as well
+GROUP BY 
+    member_casual, 
+    hour_of_day
+ORDER BY 
+    member_casual, 
+    hour_of_day;
+```
+
+_Member bike usage by hour:_
+<img width="925" alt="time-of-day-analysis-member-bike-usage-by-hour" src="https://github.com/user-attachments/assets/8aa2bd98-c60d-4df5-962e-f30f0f86edff" />
+
+_Casual rider bike usage by hour:_
+<img width="925" alt="time-of-day-analysis-casual-rider-bike-usage-by-hour" src="https://github.com/user-attachments/assets/25618d0a-5345-4ed5-aecd-ab853637c985" />
