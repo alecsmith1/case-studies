@@ -93,7 +93,7 @@ _Cleaned dataset schema:_ <br />
 
 I've conducted my data analysis in BigQuery via SQL. The steps of this analysis, consisting of the issues I set out to resolve and the questions I set out to answer, are laid out below, along with the corresponding SQL queries used to garner the data and insights I sought.
 
-**One bit of cleanup** <br />
+##### **One bit of cleanup** <br />
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
 ```
@@ -104,7 +104,7 @@ WHERE route LIKE '%Ð%';
 
 <br />
 
-**Creating a pared down table** <br />
+##### **Creating a pared down table** <br />
 The dataset contained more fields than were of use in my analysis. As such, I created a new table, paring down the list of fields/columns to only those most useful to my analysis in order to streamline query results.
 
 ```
@@ -139,5 +139,18 @@ member_casual|ride_count
 member|376003
 casual|44577
 
+**Assessing week day of bike usage**
+Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits.
+
+```
+SELECT member_casual, start_day_of_week, COUNT(start_day_of_week) AS num_of_rides
+FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+GROUP BY
+  member_casual,
+  start_day_of_week
+ORDER BY
+  member_casual DESC,
+  start_day_of_week ASC
+```
 
 
