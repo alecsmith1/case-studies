@@ -9,7 +9,7 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
 
 <br />
 
-## **About The Company**
+# **About The Company**
 
 - **Company –** Cyclistic - fictional Chicago bike share company
 - **Offering –** single-ride passes, full-day passes, annual memberships
@@ -17,7 +17,7 @@ Welcome! This data analysis was conducted as a capstone project for the Google D
 
 <br />
 
-## **Company Status**
+# **Company Status**
 
 **Profitability Assessment –** <br />
 Finance analysts found that annual members are much more profitable than single-ride or day-pass casual riders. 
@@ -30,7 +30,7 @@ Lily Moreno (Director of Marketing) believes there's opportunity to convert casu
 
 <br />
 
-## **Defining The Problem**
+# **Defining The Problem**
 
 **Business Task –** <br /> 
 Analyze Cyclistic historical bike trip data to understand how annual members and casual riders use Cyclistic bikes differently.
