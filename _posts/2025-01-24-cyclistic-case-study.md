@@ -85,3 +85,30 @@ _*Number of Records - Starting out: 426,887, Post-cleaning: 420,580_
 
 ## **Data Analysis** - _Conducted with SQL in BigQuery_
 
+I've conducted my data analysis in BigQuery via SQL. The steps of this analysis, consisting of the issues I set out to resolve and the questions I set out to answer, are laid out below, along with the corresponding SQL queries used to garner the data and insights I sought.
+
+**One bit of cleanup**
+The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
+
+```
+UPDATE `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+SET route = REPLACE(route, 'Ð', '-')
+WHERE route LIKE '%Ð%';
+```
+
+**Creating a temporary table**
+The dataset contained more fields than were of use in my analysis. As such, I created a temporary table, paring down the list of fields/columns to only those most useful to my analysis in order to streamline query results.
+
+```
+SELECT 
+  started_at,
+  start_day_of_week,
+  ended_at,
+  ride_duration_hrs,
+  route,
+  start_station_name,
+  end_station_name,
+  member_casual
+FROM 
+  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
+```
