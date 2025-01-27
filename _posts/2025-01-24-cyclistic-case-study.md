@@ -54,6 +54,8 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 
 I've conducted my data processing and cleaning in Excel. The dataset was largely clean and complete. However, via sorting, filtering, verifying and transforming data types, and creating new data points and fields, I was able to ensure data integrity and cleanliness, as well as set up the additional fields that would provide for robust and streamlined upcoming analysis stages.
 
+<br />
+
 #### **Data Cleaning - Steps Taken***
 
 1. **Applied a filter** to the dataset for streamlined dataset assessment.
@@ -71,6 +73,7 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
 
 _*Number of Records: Starting out – 426,887 | Post-cleaning – 420,580_
 
+<br />
 
 #### **Data Augmentation - Steps Taken**
 
@@ -78,3 +81,6 @@ _*Number of Records: Starting out – 426,887 | Post-cleaning – 420,580_
 2. **Created field** `start_day_of_week` via formula: `=WEEKDAY(C2,2)` - formula denotes the day of the week that the date fell on, with the `2` at the end of the equation noting that Monday is day "1" and Sunday is day "7".
 3. **Created field** `route` via formula: `=CONCATENATE(H2," ","–"," ",J2)` … formula results in syntax `Start Station Name – End Station Name` and will allow for finding most frequently rented routes for each casual and member users.
 
+<br />
+
+## **Data Analysis**
