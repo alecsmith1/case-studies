@@ -43,7 +43,7 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 
 ## **Data Collection**
 
-- **Data Source–** Data used in this analysis is internal to the company and can be found here: https://divvy-tripdata.s3.amazonaws.com/index.html
+- **Data Source –** Data used in this analysis is internal to the company and can be found here: https://divvy-tripdata.s3.amazonaws.com/index.html
 - **Data License –** Licensing info can be found in the data license agreement that makes it available for public use: https://divvybikes.com/data-license-agreement
 - **Data Set –** For this study, I chose to use Q1 2020 data due to its accuracy and completeness and thanks to its robust nature, consisting of hundreds of thousands of records.
 - **Data Storage –** Data stored locally for the duration of the project as well as in BigQuery where SQL analysis was conducted.
@@ -65,8 +65,8 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
      b. Removed 41 records bike rental duration longer than 366 hours (14 days). <br />
      c. Removed 3,766 records with a ride route of *HQ QR - HQ QR* (ride started & finished at what appears to be Cyclistic headquarters), as these rides were almost all <1 minute or had a negative duration (end time was before start time). <br />
      
-6. **Used formula `=COUNTA(UNIQUE())` to check distinct counts** of station names against station IDs to check for errant additional ID or name values (no issues found).
-7. **Used formula `=LEN()` to check fields for uniform length** (fields checked: `ride_id`, `rideable_type`, `start_station_id`, `end_station_id`, and `member_casual`). No `=TRIM()` required.
+6. **Used formula** `=COUNTA(UNIQUE())` **to check distinct counts** of station names against station IDs to check for errant additional ID or name values (no issues found).
+7. **Used formula** `=LEN()` **to check fields for uniform length** (fields checked: `ride_id`, `rideable_type`, `start_station_id`, `end_station_id`, and `member_casual`). No `=TRIM()` required.
 8. **Checked data formats**, setting a uniform Date format in the `started_at` and `ended_at` columns to ensure uniformity.
 
 #### **Data Augmentation - Steps Taken**
