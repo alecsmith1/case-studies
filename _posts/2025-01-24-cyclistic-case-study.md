@@ -95,7 +95,7 @@ I've conducted my data analysis in BigQuery via SQL. The steps of this analysis,
 
 <br />
 
-##### **One bit of cleanup** <br />
+#### **One bit of cleanup** <br />
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
 ```
@@ -106,7 +106,7 @@ WHERE route LIKE '%Ð%';
 
 <br />
 
-##### **Creating a pared down table** <br />
+#### **Creating a pared down table** <br />
 The dataset contained more fields than were of use in my analysis. As such, I created a new table, paring down the list of fields/columns to only those most useful to my analysis in order to streamline query results.
 
 ```
