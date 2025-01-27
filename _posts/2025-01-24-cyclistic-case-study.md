@@ -223,9 +223,11 @@ member	|Weekend	|65543
 <br />
 
 #### **One bit of troubleshooting**
-**Issue -** I found that in the original dataset CSV, timestamps' timezones were unmarked and listed in local time (Central Time, Chicago). However, when the dataset was uploaded to BigQuery, BigQuery had listed "UTC" with the timestamp. I originally interpreted this to mean BigQuery had adjusted the timestamps to UTC time since the time zone was unmarked in the data itself. As a result, I thought I would need to include a timezone adjustment in my SQL queries to ensure day-of-time analyses would properly reflect local Chicago time. Including a timezone adjustment in my SQL queries resulted in misleading data about times of day bikes were used.
+**Issue -** <br />
+I found that in the original dataset CSV, timestamps' timezones were unmarked and listed in local time (Central Time, Chicago). However, when the dataset was uploaded to BigQuery, BigQuery had listed "UTC" with the timestamp. I originally interpreted this to mean BigQuery had adjusted the timestamps to UTC time since the time zone was unmarked in the data itself. As a result, I thought I would need to include a timezone adjustment in my SQL queries to ensure day-of-time analyses would properly reflect local Chicago time. Including a timezone adjustment in my SQL queries resulted in misleading data about times of day bikes were used.
 
-**Troubleshooting / solution -** A deeper dive was needed so I began crosschecking the CSV with the data table in BigQuery. What I found was that BigQuery had _not_ in fact adjusted the timezone to UTC, it had simply applied the timezone label "UTC" to timestamps that were in local Chicago time. With this takeaway, I was able to conduct time-of-day analyses that provided meaningful takeaways.
+**Troubleshooting / solution -** <br />
+A deeper dive was needed so I began crosschecking the CSV with the data table in BigQuery. What I found was that BigQuery had _not_ in fact adjusted the timezone to UTC, it had simply applied the timezone label "UTC" to timestamps that were in local Chicago time. With this takeaway, I was able to conduct time-of-day analyses that provided meaningful takeaways.
 
 <br />
 
