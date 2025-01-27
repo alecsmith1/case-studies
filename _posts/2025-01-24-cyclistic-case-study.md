@@ -59,7 +59,7 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
 1. **Applied a filter** to the dataset for streamlined dataset assessment.
 2. **Used Excel's “Remove Duplicates” tool** to check for duplicate values (no duplicates found).
 3. **Checked all columns for blank fields**, removing the 1 record found with a blank field (`end_station_name` field).
-4. **Checked for outliers to ensure data isn't skewed** by sorting `ride_duration_hrs` ride duration column (created in dataset augmentation section below):
+4. **Checked for outliers to ensure data isn't skewed** by sorting `ride_duration_hrs` ride duration column (created in dataset augmentation section below):<br />
      a. Removed 2,500 records with bike rental duration of zero minutes.
      b. Removed 41 records bike rental duration longer than 366 hours (14 days).
      c. Removed 3,766 records with a ride route of *HQ QR - HQ QR* (ride started & finished at what appears to be Cyclistic headquarters), as these rides were almost all <1 minute or had a negative duration (end time was before start time). 
