@@ -251,8 +251,8 @@ ORDER BY
     hour_of_day;
 ```
 
-_Member bike usage by hour:_
-<img width="925" alt="time-of-day-analysis-member-bike-usage-by-hour" src="https://github.com/user-attachments/assets/8aa2bd98-c60d-4df5-962e-f30f0f86edff" />
+_**Member** bike usage by hour:_
+<img width="921" alt="time-of-day-analysis-member-bike-usage-by-hour" src="https://github.com/user-attachments/assets/a74a294c-b629-4360-a9df-cd3718879821" />
 
-_Casual rider bike usage by hour:_
-<img width="925" alt="time-of-day-analysis-casual-rider-bike-usage-by-hour" src="https://github.com/user-attachments/assets/25618d0a-5345-4ed5-aecd-ab853637c985" />
+_**Casual rider** bike usage by hour:_
+<img width="917" alt="time-of-day-analysis-casual-rider-bike-usage-by-hour" src="https://github.com/user-attachments/assets/cb505ec4-202a-4e21-8d20-18c58499fa4e" />
