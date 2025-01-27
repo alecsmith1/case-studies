@@ -134,9 +134,13 @@ _Pared down dataset schema:_ <br />
 To set the stage, I asked how many casual riders vs members there are. 
 
 ```
-SELECT member_casual, COUNT(member_casual)
-FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
-GROUP BY member_casual
+SELECT
+  member_casual,
+  COUNT(member_casual)
+FROM
+  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
+GROUP BY
+  member_casual
 ```
 
 member_casual|ride_count
@@ -146,11 +150,15 @@ casual|44577
 <br />
 
 #### **Assessing week day of bike usage**
-Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits.
+Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits. With 2 SQL queries I was able to 1) get a sense via 7 day breakdown of the data, and then 2) get an aggregate of weekdays vs weekend days.
 
 ```
-SELECT member_casual, start_day_of_week, COUNT(start_day_of_week) AS num_of_rides
-FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+SELECT
+  member_casual,
+  start_day_of_week,
+  COUNT(start_day_of_week) AS num_of_rides
+FROM
+  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
   member_casual,
   start_day_of_week
@@ -159,4 +167,35 @@ ORDER BY
   start_day_of_week ASC
 ```
 
+member_casual|start_day_of_week|num_of_rides
+member|1|61565
+member|2|69310
+member|3|63608
+member|4|60831
+member|5|55146
+member|6|29877
+member|7|35666
+casual|1|3689
+casual|2|4569
+casual|3|5181
+casual|4|4210
+casual|5|4623
+casual|6|7465
+casual|7|14840
 
+```
+SELECT 
+    member_casual,  -- Groups by rider type (member vs. casual)
+    CASE
+        WHEN day_of_week BETWEEN 1 AND 5 THEN 'Weekday'
+        WHEN day_of_week IN (6, 7) THEN 'Weekend'
+    END AS ride_category,  -- Classifies days into Weekday or Weekend
+    COUNT(*) AS ride_count -- Counts the rides for each group
+FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+GROUP BY 
+    member_casual, 
+    ride_category
+ORDER BY 
+    member_casual, 
+    ride_category;
+```
