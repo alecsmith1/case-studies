@@ -48,6 +48,8 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 - **Data Set –** For this study, I chose to use Q1 2020 data due to its accuracy and completeness and thanks to its robust nature, consisting of hundreds of thousands of records.
 - **Data Storage –** Data stored locally for the duration of the project as well as in BigQuery where SQL analysis was conducted.
 
+
+
 <br />
 
 ## **Data Processing** - _Conducted in Excel_
