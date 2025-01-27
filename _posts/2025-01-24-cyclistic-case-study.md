@@ -95,6 +95,8 @@ _Cleaned dataset schema:_ <br />
 
 I've conducted my data analysis in BigQuery via SQL. The steps of this analysis, consisting of the issues I set out to resolve and the questions I set out to answer, are laid out below, along with the corresponding SQL queries used to garner the data and insights I sought.
 
+<br />
+
 #### **One bit of cleanup**
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
@@ -103,6 +105,8 @@ UPDATE `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_da
 SET route = REPLACE(route, 'Ð', '-')
 WHERE route LIKE '%Ð%';
 ```
+
+<br />
 
 #### **Creating a pared down table**
 The dataset contained more fields than were of use in my analysis. As such, I created a new table, paring down the list of fields/columns to only those most useful to my analysis in order to streamline query results.
@@ -124,6 +128,8 @@ FROM
 _Pared down dataset schema:_ <br />
 <img width="282" alt="schema - 2020_Q1_trip_data_pared" src="https://github.com/user-attachments/assets/994e6f33-3b09-470f-ad7b-418438ce5e16" />
 
+<br />
+
 #### **Getting a count of member vs casual riders**
 To set the stage, I asked how many casual riders vs members there are. 
 
@@ -136,6 +142,8 @@ GROUP BY member_casual
 member_casual|ride_count
 member|376003
 casual|44577
+
+<br />
 
 #### **Assessing week day of bike usage**
 Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits.
