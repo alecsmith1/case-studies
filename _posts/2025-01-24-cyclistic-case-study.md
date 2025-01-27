@@ -50,7 +50,7 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 
 <br />
 
-## **Data Processing - _Conducted in Excel_**
+## **Data Processing** - _Conducted in Excel_
 
 I've conducted my data processing and cleaning in Excel. The dataset was largely clean and complete. However, via sorting, filtering, verifying and transforming data types, and creating new data points and fields, I was able to ensure data integrity and cleanliness, as well as set up the additional fields that would provide for robust and streamlined upcoming analysis stages.
 
@@ -83,5 +83,5 @@ _*Number of Records - Starting out: 426,887, Post-cleaning: 420,580_
 
 <br />
 
-## **Data Analysis - _Conducted with SQL in BigQuery_**
+## **Data Analysis** - _Conducted with SQL in BigQuery_
 
