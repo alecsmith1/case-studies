@@ -163,7 +163,7 @@ casual|44577
 
 <br />
 
-#### **Assessing week day of bike usage**
+#### **Assessing day-of-week bike usage**
 Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits. With 2 SQL queries I was able to 1) get a sense via 7 day breakdown of the data, and then 2) get an aggregate of weekdays vs weekend days.
 
 ```
@@ -219,3 +219,15 @@ casual	|Weekday	|22272
 casual	|Weekend	|22305
 member	|Weekday	|310460
 member	|Weekend	|65543
+
+<br />
+
+#### **One bit of troubleshooting**
+**Issue -** I found that in the original dataset CSV, timestamps' timezones were unmarked and listed in local time (Central Time, Chicago). However, when the dataset was uploaded to BigQuery, BigQuery had listed "UTC" with the timestamp. I originally interpreted this to mean BigQuery had adjusted the timestamps to UTC time since the time zone was unmarked in the data itself. As a result, I thought I would need to include a timezone adjustment in my SQL queries to ensure day-of-time analyses would properly reflect local Chicago time. Including a timezone adjustment in my SQL queries resulted in misleading data about times of day bikes were used.
+
+**Troubleshooting / solution -** A deeper dive was needed so I began crosschecking the CSV with the data table in BigQuery. What I found was that BigQuery had _not_ in fact adjusted the timezone to UTC, it had simply applied the timezone label "UTC" to timestamps that were in local Chicago time. With this takeaway, I was able to conduct time-of-day analyses that provided meaningful takeaways.
+
+<br />
+
+#### **Assessing time-of-day bike usage**
+
