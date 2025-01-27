@@ -54,7 +54,7 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 
 I've conducted my data processing and cleaning in Excel. The dataset was largely clean and complete. However, via sorting, filtering, verifying and transforming data types, and creating new data points and fields, I was able to ensure data integrity and cleanliness, as well as set up the additional fields that would provide for robust and streamlined upcoming analysis stages.
 
-#### **Data Cleaning - Steps Taken**
+#### **Data Cleaning - Steps Taken***
 
 1. **Applied a filter** to the dataset for streamlined dataset assessment.
 2. **Used Excel's “Remove Duplicates” tool** to check for duplicate values (no duplicates found).
@@ -68,6 +68,9 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
 6. **Used formula** `=COUNTA(UNIQUE())` **to check distinct counts** of station names against station IDs to check for errant additional ID or name values (no issues found).
 7. **Used formula** `=LEN()` **to check fields for uniform length** (fields checked: `ride_id`, `rideable_type`, `start_station_id`, `end_station_id`, and `member_casual`). No `=TRIM()` required.
 8. **Checked data formats**, setting a uniform Date format in the `started_at` and `ended_at` columns to ensure uniformity.
+
+_*Number of Records: Starting out – 426,887 | Post-cleaning – 420,580_
+
 
 #### **Data Augmentation - Steps Taken**
 
