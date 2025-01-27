@@ -61,9 +61,9 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
 3. **Checked all columns for blank fields**, removing the 1 record found with a blank field (`end_station_name` field).
 4. **Checked for outliers to ensure data isn't skewed** by sorting `ride_duration_hrs` ride duration column (created in dataset augmentation section below): <br />
 
-     a. Removed 2,500 records with bike rental duration of zero minutes. <br />
-     b. Removed 41 records bike rental duration longer than 366 hours (14 days). <br />
-     c. Removed 3,766 records with a ride route of *HQ QR - HQ QR* (ride started & finished at what appears to be Cyclistic headquarters), as these rides were almost all <1 minute or had a negative duration (end time was before start time). <br />
+          a. Removed 2,500 records with bike rental duration of zero minutes. <br />
+          b. Removed 41 records bike rental duration longer than 366 hours (14 days). <br />
+          c. Removed 3,766 records with a ride route of *HQ QR - HQ QR* (ride started & finished at what appears to be Cyclistic headquarters), as these rides were almost all <1 minute or had a negative duration (end time was before start time). <br />
      
 6. **Used formula `=COUNTA(UNIQUE())` to check distinct counts** of station names against station IDs to check for errant additional ID or name values (no issues found).
 7. **Used formula `=LEN()` to check fields for uniform length** (fields checked: `ride_id`, `rideable_type`, `start_station_id`, `end_station_id`, and `member_casual`). No `=TRIM()` required.
