@@ -71,10 +71,6 @@ I've conducted my data processing and cleaning in Excel. The dataset was largely
 
 <br />
 
----
-
-<br />
-
 #### **Data Cleaning - Steps Taken***
 
 1. **Applied a filter** to the dataset for streamlined dataset assessment.
