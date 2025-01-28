@@ -264,18 +264,41 @@ At this point, I wanted to further assess what the data appeared to be demonstra
 
 ```
 SELECT 
-  member_casual,
-  MIN(ride_duration_hrs) AS shortest_ride,
-  MAX(ride_duration_hrs) AS longest_ride,
-  AVG(ride_duration_hrs) AS avg_ride_duration
+    member_casual,
+    MIN(ride_duration_hrs) AS shortest_ride,
+    MAX(ride_duration_hrs) AS longest_ride,
+    AVG(ride_duration_hrs) AS avg_ride_duration
 FROM 
-  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
-  member_casual
+    member_casual
 ORDER BY
-  member_casual
+    member_casual
 ```
 
 member_casual | shortest_ride | longest_ride | avg_ride_duration
 casual | 0.02 | 311.37 | 1.03
 member | 0.02 | 173.73 | 0.20
+
+<br />
+
+#### **Assessing percentage of unique routes**
+Another opportunity to evaluate the data was around the percentage of unique routes ridden by each the members and the casual riders. This helped evaluate the hypothesis that members would have a higher percentage of repetition in their routes ridden since they use the bikes for the same purpose regularly around commutes, while leisure riders would have a higher percentage of unique rides due to the more diverse nature of tourism or ways people experience the city for leisure. 
+
+```
+SELECT
+    member_casual,
+    COUNT(DISTINCT(route)) AS unique_routes,
+    COUNT(route) AS total_rides,
+    (COUNT(DISTINCT(route)) / COUNT(route)) * 100 AS unique_rides_as_percent_of_total
+FROM 
+    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+GROUP BY
+    member_casual
+ORDER BY
+    unique_routes DESC;
+```
+
+member_casual | unique_routes | total_rides | unique_rides_as_percent_of_total
+member | 47593 | 376003 | 12.66
+casual | 16761 | 44577 | 37.60
