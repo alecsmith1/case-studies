@@ -265,9 +265,9 @@ At this point, I wanted to further assess what the data appeared to be demonstra
 ```
 SELECT 
     member_casual,
-    MIN(ride_duration_hrs) AS shortest_ride,
-    MAX(ride_duration_hrs) AS longest_ride,
-    AVG(ride_duration_hrs) AS avg_ride_duration
+    MIN(ride_duration_hrs) AS shortest_ride_hrs,
+    MAX(ride_duration_hrs) AS longest_ride_hrs,
+    AVG(ride_duration_hrs) AS avg_ride_duration_hrs
 FROM 
     `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
@@ -276,7 +276,7 @@ ORDER BY
     member_casual
 ```
 
-member_casual | shortest_ride | longest_ride | avg_ride_duration
+member_casual | shortest_ride_hrs | longest_ride_hrs | avg_ride_duration_hrs
 casual | 0.02 | 311.37 | 1.03
 member | 0.02 | 173.73 | 0.20
 
