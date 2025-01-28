@@ -305,7 +305,7 @@ casual | 16761 | 44577 | 37.60%
 
 <br />
 
-#### ****
+#### **Assessing percentage of routes starting/ending at the same station**
 In a very similar sense to the unique routes percentage assessed above, I anticipated we'd see a higher rate of member rides that started and ended at different stations, since members may be commuting from point A to point B on their ride. And in contrast, I anticipated casual riders would have a higher percentage of their rides that started and ended in the same location since leisurely riders might be traveling in a tourist loop and/or need to dock the bikes back where they started at the end of their ride to return to their vehicle.
 
 ```
