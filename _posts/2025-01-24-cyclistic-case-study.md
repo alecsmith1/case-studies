@@ -96,7 +96,7 @@ _*Number of Records - Starting out: 426,887, Post-cleaning: 420,580_
 2. **Created field** `start_day_of_week` via formula: `=WEEKDAY(C2,2)` - formula denotes the day of the week that the date fell on, with the `2` at the end of the equation noting that Monday is day "1" and Sunday is day "7".
 3. **Created field** `route` via formula: `=CONCATENATE(H2," ","–"," ",J2)` … formula results in syntax `Start Station Name – End Station Name` and will allow for finding most frequently rented routes for each casual and member users.
 
-_Cleaned dataset schema:_ <br />
+_Cleaned & augmented dataset schema:_ <br />
 <img width="279" alt="schema - 2020_Q1_trip_data_cleaned" src="https://github.com/user-attachments/assets/068d6d4a-4893-425c-b5ad-ddac4fdb139f" />
 
 <br />
@@ -256,3 +256,26 @@ _**Member** bike usage by hour:_
 
 _**Casual rider** bike usage by hour:_
 <img width="917" alt="time-of-day-analysis-casual-rider-bike-usage-by-hour" src="https://github.com/user-attachments/assets/cb505ec4-202a-4e21-8d20-18c58499fa4e" />
+
+<br />
+
+#### **Assessing average ride duration**
+At this point, I wanted to further assess what the data appeared to be demonstrating, which is that members use bikes for commute purposes and casual riders use bikes for leisure. To further investigate I looked at average ride duration, anticipating that commutes to/from work would last ~20 minutes or less, while leisurely rides would longer, perhaps ~1 hour or longer.
+
+```
+SELECT 
+  member_casual,
+  MIN(ride_duration_hrs) AS shortest_ride,
+  MAX(ride_duration_hrs) AS longest_ride,
+  AVG(ride_duration_hrs) AS avg_ride_duration
+FROM 
+  `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+GROUP BY
+  member_casual
+ORDER BY
+  member_casual
+```
+
+member_casual | shortest_ride | longest_ride | avg_ride_duration
+casual | 0.02 | 311.37 | 1.03
+member | 0.02 | 173.73 | 0.20
