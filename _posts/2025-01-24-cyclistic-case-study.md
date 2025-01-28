@@ -300,5 +300,34 @@ ORDER BY
 ```
 
 member_casual | unique_routes | total_rides | unique_rides_as_percent_of_total
-member | 47593 | 376003 | 12.66
-casual | 16761 | 44577 | 37.60
+member | 47593 | 376003 | 12.66%
+casual | 16761 | 44577 | 37.60%
+
+<br />
+
+#### ****
+In a very similar sense to the unique routes percentage assessed above, I anticipated we'd see a higher rate of member rides that started and ended at different stations, since members may be commuting from point A to point B on their ride. And in contrast, I anticipated casual riders would have a higher percentage of their rides that started and ended in the same location since leisurely riders might be traveling in a tourist loop and/or need to dock the bikes back where they started at the end of their ride to return to their vehicle.
+
+```
+SELECT 
+    member_casual, 
+    CASE 
+        WHEN start_station_name = end_station_name THEN 'Same Station'
+        ELSE 'Different Station'
+    END AS same_or_diff_station,
+    COUNT(*) AS ride_count, -- Total rides for each ride type
+    ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY member_casual), 2) AS ride_percentage -- Percentage of rides
+FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+GROUP BY 
+    member_casual, 
+    same_or_diff_station
+ORDER BY 
+    member_casual, 
+    same_or_diff_station;
+```
+
+member_casual | same_or_diff_station | ride_count | ride_percentage
+casual | Different Station | 38007 | 85.26%
+casual | Same Station | 6570 | 14.74%
+member | Different Station | 368522 | 98.01%
+member | Same Station | 7481 | 1.99%
