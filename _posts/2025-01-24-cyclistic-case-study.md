@@ -320,7 +320,7 @@ Let's visualize the data to see the clear bike usage trends that support these f
 
 ![weekday-vs-weekend-breakdown-pie-chart-member-rides](https://github.com/user-attachments/assets/4c8dec89-f1ea-45c2-948b-8dab08faac93 | width=50)
 
-<img src="[image-url](https://github.com/user-attachments/assets/4c8dec89-f1ea-45c2-948b-8dab08faac93)" alt="Alt Text" width="300" height="200">
+<img src="https://github.com/user-attachments/assets/4c8dec89-f1ea-45c2-948b-8dab08faac93" alt="Alt Text" width="300" height="200">
 
 ![weekday-vs-weekend-breakdown-pie-chart-casual-rides](https://github.com/user-attachments/assets/677ead20-08eb-4ad1-8968-0906a6905c5c | width=50)
 
