@@ -311,8 +311,12 @@ member | Same Station | 7481 | 1.99%
 
 Takeaways are pretty clear cut from this data set. Our primary learnings fall into 3 categories:
 1. There are ample casual riders with which to justify targeting campaigns toward encouraging them to become annual members.
-2. Annual members tend to use bikes mostly for commute as well as tasks like errands during their week.
+2. Member riders tend to use bikes mostly for commute as well as tasks like errands during their week.
 3. Casual riders appear to use bikes either/both more for tourism or leisure in their own city. 
 
 Let's visualize the data to see the clear bike usage trends that support these findings.
 
+#### **1. Members ride most on weekdays** 
+
+![weekday-vs-weekend-breakdown-pie-chart-member-rides](https://github.com/user-attachments/assets/4c8dec89-f1ea-45c2-948b-8dab08faac93)
+![weekday-vs-weekend-breakdown-pie-chart-casual-rides](https://github.com/user-attachments/assets/677ead20-08eb-4ad1-8968-0906a6905c5c)
