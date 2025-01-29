@@ -316,7 +316,13 @@ Takeaways are pretty clear cut from this data set. Our primary learnings fall in
 
 Let's visualize the data to see the clear bike usage trends that support these findings.
 
-#### **1. Members ride most on weekdays** 
+#### **1. Members favor weekdays while casual riders ride more heavily on weekends** 
 
-![weekday-vs-weekend-breakdown-pie-chart-member-rides](https://github.com/user-attachments/assets/4c8dec89-f1ea-45c2-948b-8dab08faac93)
-![weekday-vs-weekend-breakdown-pie-chart-casual-rides](https://github.com/user-attachments/assets/677ead20-08eb-4ad1-8968-0906a6905c5c)
+![weekday-vs-weekend-breakdown-pie-chart-member-rides](https://github.com/user-attachments/assets/4c8dec89-f1ea-45c2-948b-8dab08faac93 | width=50)
+![weekday-vs-weekend-breakdown-pie-chart-casual-rides](https://github.com/user-attachments/assets/677ead20-08eb-4ad1-8968-0906a6905c5c | width=50)
+
+member_casual	|day_of_week_category	|ride_count
+casual	|Weekday	|22272
+casual	|Weekend	|22305
+member	|Weekday	|310460
+member	|Weekend	|65543
