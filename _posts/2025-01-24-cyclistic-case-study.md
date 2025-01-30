@@ -368,3 +368,10 @@ Shorter average ride times (12 minutes) for members may indicate more utilitaria
 
 **Ride Duration** |	**Members**	|**Casual Riders**
 Avg.  duration (mins)|	12	|62
+
+<br />
+
+#### **4. Members ride a much higher percentage of repeat routes**
+In another demonstration that members likely use bikes for day-to-day commute, member riders have a much higher percentage of repeated routes ridden, compared to casual riders which have a more balanced blend of repeated and unique routes ridden.
+
+<img src="https://github.com/user-attachments/assets/e26e0073-a99e-47fd-854a-3dcd48c0cc59" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/a1d14846-ba44-4314-8f76-50260ed42a43" alt="Alt Text" style="width:50%; height:auto;">
