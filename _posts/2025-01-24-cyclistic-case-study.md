@@ -367,7 +367,7 @@ Member bike usage corresponds pretty cleanly with business hours, indicating lik
 Shorter average ride times (12 minutes) for members may indicate more utilitarian usage of bikes for purposes such as commutes or errands, while longer average ride times (62 minutes) for casual riders may indicate more leisurely riding.
 
 **Ride Duration** |	**Members**	|**Casual Riders**
-Avg.  duration (mins)|	12	|62
+Avg.  duration|	12 mins	|62 mins
 
 <br />
 
