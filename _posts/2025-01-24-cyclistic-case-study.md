@@ -167,14 +167,18 @@ casual|44577
 Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits. With this query I was able to get an aggregate of weekdays vs weekend days bike usage.
 
 ```
-SELECT member_casual, start_day_of_week, COUNT(start_day_of_week) AS num_of_rides
-FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+SELECT
+    member_casual,
+    start_day_of_week,
+    COUNT(start_day_of_week) AS num_of_rides
+FROM
+    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
-  member_casual,
-  start_day_of_week
+    member_casual,
+    start_day_of_week
 ORDER BY
-  member_casual DESC,
-  start_day_of_week ASC
+    member_casual DESC,
+    start_day_of_week ASC
 ```
 
 member_casual|	start_day_of_week|	num_of_rides
@@ -347,4 +351,7 @@ Let's visualize the data to see the clear bike usage trends that support these f
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
-#### **2. Members ride at the start & end of work days while casual riders ride throughout their afternoon**
+#### **2. Member ride time corresponds with work commute times while casual riders ride throughout their afternoon**
+
+<img src="https://github.com/user-attachments/assets/5d97c851-5345-41e9-b399-eb53a19fdf53" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
+
