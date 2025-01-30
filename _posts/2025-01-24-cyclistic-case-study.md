@@ -347,15 +347,24 @@ Takeaways are pretty clear cut from this data set. Our primary learnings fall in
 
 Let's visualize the data to see the clear bike usage trends that support these findings.
 
-#### **1. Members favor weekdays while casual riders ride more heavily on weekends** 
+<br />
+
+#### **1. Members favor weekdays, casual riders favor weekends** 
+Members riding on business days while casual riders ride a lot on weekends may indicate business versus leisure usage of bikes.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
-#### **2. Member ride time corresponds with work commute times while casual riders ride throughout their afternoon**
+<br />
+
+#### **2. Members ride before/after work day, casual rider usage more diverse**
+Member bike usage corresponds pretty cleanly with business hours, indicating likely use of bikes to commute, while casual riders pretty evenly from late morning through sundown.
 
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
 
-#### **3. Average ride duration demonstrates utilitarian use by members and leisurely use for casual riders**
+<br />
 
-**Ride Duration |	Members	|Casual Riders**
+#### **3. Members ride for much shorter duration than casual riders**
+Shorter average ride times (12 minutes) for members may indicate more utilitarian usage of bikes for purposes such as commutes or errands, while longer average ride times (62 minutes) for casual riders may indicate more leisurely riding.
+
+**Ride Duration** |	**Members**	|**Casual Riders**
 Avg.  duration (mins)|	12	|62
