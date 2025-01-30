@@ -167,6 +167,33 @@ casual|44577
 Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits. With this query I was able to get an aggregate of weekdays vs weekend days bike usage.
 
 ```
+SELECT member_casual, start_day_of_week, COUNT(start_day_of_week) AS num_of_rides
+FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+GROUP BY
+  member_casual,
+  start_day_of_week
+ORDER BY
+  member_casual DESC,
+  start_day_of_week ASC
+```
+
+member_casual|	start_day_of_week|	num_of_rides
+member|	1|	61565
+member|	2|	69310
+member|	3|	63608
+member|	4|	60831
+member|	5|	55146
+member|	6|	29877
+member|	7|	35666
+casual|	1|	3689
+casual|	2|	4569
+casual|	3|	5181
+casual|	4|	4210
+casual|	5|	4623
+casual|	6|	7465
+casual|	7|	14840
+
+```
 SELECT 
     member_casual,
     CASE
@@ -319,3 +346,5 @@ Let's visualize the data to see the clear bike usage trends that support these f
 #### **1. Members favor weekdays while casual riders ride more heavily on weekends** 
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
+
+#### **2. Members ride at the start & end of work days while casual riders ride throughout their afternoon**
