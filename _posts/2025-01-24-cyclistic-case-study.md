@@ -353,5 +353,6 @@ Let's visualize the data to see the clear bike usage trends that support these f
 
 #### **2. Member ride time corresponds with work commute times while casual riders ride throughout their afternoon**
 
-<img src="https://github.com/user-attachments/assets/5d97c851-5345-41e9-b399-eb53a19fdf53" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
+<img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
+
 
