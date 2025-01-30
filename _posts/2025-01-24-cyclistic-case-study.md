@@ -383,3 +383,11 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 
 <img src="https://github.com/user-attachments/assets/b8cc6bb9-275d-4e08-95c1-bb8ff6b2ae01" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d74d28a5-a03a-49a6-a111-ad1ddbf29235" alt="Alt Text" style="width:50%; height:auto;">
 
+<br />
+
+--- 
+
+<br />
+
+## **Recommendations (Acting on Our Findings)**
+
