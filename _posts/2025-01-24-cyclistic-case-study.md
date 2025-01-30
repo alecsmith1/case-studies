@@ -375,3 +375,11 @@ Avg.  duration|	12 mins	|62 mins
 In another demonstration that members likely use bikes for day-to-day commute, member riders have a much higher percentage of repeated routes ridden, compared to casual riders which have a more balanced blend of repeated and unique routes ridden.
 
 <img src="https://github.com/user-attachments/assets/0eb6465b-4dbe-4e2f-84ac-1b43c4499991" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/544732ff-1a4b-47bb-8cdf-ac4d9e19ca8c" alt="Alt Text" style="width:50%; height:auto;">
+
+<br />
+
+#### **5. Members nearly always ride from point A to point B**
+98% of members' rides start and end at different bike stations, again pointing to utilitarian usage for commute or to get from point A to point B. Casual riders, on the other hand, will often ride from point A to point B, but are more likely to start and end their ride at the same station sometimes, indicating potentially riding a loop for tourist type activities or to finish their ride back where they started perhaps to return to their vehicle.
+
+<img src="https://github.com/user-attachments/assets/b8cc6bb9-275d-4e08-95c1-bb8ff6b2ae01" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d74d28a5-a03a-49a6-a111-ad1ddbf29235" alt="Alt Text" style="width:50%; height:auto;">
+
