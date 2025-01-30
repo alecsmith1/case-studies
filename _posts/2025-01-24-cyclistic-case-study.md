@@ -357,5 +357,5 @@ Let's visualize the data to see the clear bike usage trends that support these f
 
 #### **3. Average ride duration demonstrates utilitarian use by members and leisurely use for casual riders**
 
-Ride Duration |	Members	|Casual Riders
+**Ride Duration |	Members	|Casual Riders**
 Avg.  duration (mins)|	12	|62
