@@ -37,8 +37,9 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br />
 
 #### **Data Analysis** - _conducted via SQL in BigQuery_
-**1. Cleanup** - modified the `route` field to fix an errant character
-**2. Created new table** - created a pared down table for streamlined analysis
+**- Cleanup** - modified the `route` field to fix an errant character
+**- Created new table** - created a pared down table for streamlined analysis
+<img src="https://github.com/user-attachments/assets/7d694dba-826e-44a4-9642-964c892f487a" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/7e89fd8c-20ab-4153-94e6-4cdff6685ecc" alt="Alt Text" style="width:50%; height:auto;">
 
 
 
