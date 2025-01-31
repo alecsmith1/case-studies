@@ -5,7 +5,31 @@ author: "Alec Smith"
 date: 2025-01-31
 ---
 
-Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading. 
+Welcome! This analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading. 
+
+<br />
+
+# Overview (Condensed Case Study)
+As a member of the data analytics team at the fictional company Cyclistic, I've been tasked with answering the question: _**How do the bike usage habits of annual members differ from those of casual riders?**_
+
+### Context:
+
+- **Offering** - bike-share via annual membership ("members") and one-off passes ("casual riders")
+- **Assessment** - analysts have determined annual membership is more profitable than casual riders
+- **Hypothesis** - the marketing director believes converting casual riders to members could drive future growth
+
+
+<br />
+
+--- 
+
+<br />
+
+# **Full Analysis Process (Detailed Case Study)**
+
+<br />
+
+---
 
 <br />
 
