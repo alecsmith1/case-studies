@@ -16,6 +16,8 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 **Question / Business Task -** As a data analyst, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
+<br />
+
 #### **Data Collection & Processing** - _conducted in Excel_
 - **Collection**
   - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy.
@@ -30,6 +32,8 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
   - Created new field `ride_duration_hrs` via formula `=(D2-C2)&24`
   - Created new field `start_day_of_week` via formula `=WEEKDAY(C2,2)`
   - Created new field `route` via formula `=CONCATENATE(H2," ","-"," ",J2)`
+
+<br />
 
 #### **Data Analysis** - _conducted via SQL in BigQuery_
 
