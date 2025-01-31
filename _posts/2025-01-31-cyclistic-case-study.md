@@ -20,8 +20,10 @@ As a member of the data analytics team at Cyclistic, in effort to support market
 - **Key Stakeholders** - Director of Marketing & Executive Team
 
 #### **Data Collection, Processing, and Processing:**
-- Q1 2020 bike ride data was chosen from the [internal datasets](https://divvy-tripdata.s3.amazonaws.com/index.html) for its completeness and accuracy.
-- Data cleaning was conducted in Excel with the following primary notes:
+- **Collection -** Q1 2020 bike ride data was chosen from the <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">internal datasets</a>
+ [internal datasets](https://divvy-tripdata.s3.amazonaws.com/index.html) for its completeness and accuracy.
+
+- **Cleaning -** Data cleaning was conducted in Excel with the following primary notes:
   - Used "Remove Duplicates" tool (no duplicates found)
   - Filtered to check all fields for null values (removed 1 record)
   - Sorted to check for outliers to avoid skewed data
@@ -31,6 +33,7 @@ As a member of the data analytics team at Cyclistic, in effort to support market
   - Used `=COUNTA(UNIQUE())` to check for errant bike stations (no issues)
   - Used `=LEN()` to check fields for uniform length (no `=TRIM()` required)
   - Ensured uniform date formats for ride `started_at` & `ended_at` fields
+
 
 <br />
 
