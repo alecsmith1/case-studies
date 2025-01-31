@@ -114,13 +114,11 @@ I've conducted my data analysis in BigQuery via SQL. The steps of this analysis,
 #### **One bit of cleanup**
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
-<p style="font-size:8px">
 ```
 UPDATE `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
 SET route = REPLACE(route, 'Ð', '-')
 WHERE route LIKE '%Ð%';
 ```
-</p>
 
 <br />
 
@@ -159,9 +157,11 @@ GROUP BY
     member_casual
 ```
 
+<p style="font-size:9px">
 member_casual|ride_count
 member|376003
 casual|44577
+</p>
 
 <br />
 
