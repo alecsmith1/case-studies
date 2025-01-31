@@ -38,17 +38,15 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 #### **Data Analysis** - _conducted via SQL in BigQuery_
 - Modified the `route` field to fix an errant character <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#one-bit-of-cleanup" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
-- Created new table - created a pared down table for streamlined analysis <br />
-<img src="https://github.com/user-attachments/assets/7e89fd8c-20ab-4153-94e6-4cdff6685ecc" alt="Alt Text" style="width:50%; height:auto;"> <br />
-- Rider count** - getting a count of members vs casual riders <br />
-<img src="https://github.com/user-attachments/assets/e1937822-95f0-41e2-9945-78ede63e88ea" alt="Alt Text" style="width:50%; height:auto;"> <br />
+- Created a pared down table for streamlined analysis <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#creating-a-pared-down-table" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
+- Getting a count of members vs casual riders <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#getting-a-count-of-member-vs-casual-riders" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
+
 
 
 
 https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#one-bit-of-cleanup
 
-<a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
-
+<a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#getting-a-count-of-member-vs-casual-riders" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
 
 
 
