@@ -391,3 +391,21 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 
 ## **Recommendations (Acting on Our Findings)**
 
+In this analysis we set out to answer the question: 
+- **_How do bike usage habits of annual members and casual riders differ?_**
+
+The data tells a very clear story: 
+- **_Cyclistic annual members use bikes for commuting and utility purposes_**
+- **_Casual riders (single-ride and full-day pass) use bikes for leisure_**
+
+Upon review of our findings, recommendations become clear:
+- **_Marketing geared toward converting casual riders to members would be very worthwhile._**
+
+
+
+With this information, it's easy to craft next steps: 
+
+With more data we could answer additional questions or make additional recommendations:
+
+1. Costs of subscriptions vs daily usage - could we positions marketing campaigns around cost-savings?
+2. 
