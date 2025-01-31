@@ -403,7 +403,7 @@ Upon review of our findings, recommendations become clear:
 
 To execute these campaigns, I'd offer a key recommendation:
 1. Since casual riders seem to be made up of both locals and visiting tourists, **ensure digital ad campaigns are geo-targeted to those who _live in_ your targeted location** and not _all_ people. This will help avoid wasted budget on visiting tourists.
-2. Highlight value and key benefits in the copywriting. Along with making Cyclistic riders _aware of_ the annual membership, highlighting the value of your offering could be key in enticing signups.
+2. **Highlight value and key benefits in the copy**. Along with making Cyclistic riders aware of the annual membership, highlighting the value of your offering could be key in enticing signups.
 
 With additional market research, data collection, and/or analysis, we could learn more about members and casual riders in ways that would help craft additional recommendations:
 
@@ -417,6 +417,7 @@ With additional market research, data collection, and/or analysis, we could lear
    - _Avoiding parking challenges?_
    - _Staying healthy?_
    - _Environmental benefits?_
+
 <br />
 4. **Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes?_ Examples:
    - _What factors led to them choosing to rent bikes?_
