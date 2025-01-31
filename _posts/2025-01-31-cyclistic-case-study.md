@@ -37,18 +37,19 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br />
 
 #### **Data Analysis** - _conducted via SQL in BigQuery_
-- Modified the `route` field to fix an errant character <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#one-bit-of-cleanup" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
-- Created a pared down table for streamlined analysis <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#creating-a-pared-down-table" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
-- Got a count of members vs casual riders <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#getting-a-count-of-member-vs-casual-riders" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
-- Assessed day-of-week bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-day-of-week-bike-usage" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
-- Assessed time-of-day bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-time-of-day-bike-usage" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
+- Modified the `route` field to fix an errant character <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#one-bit-of-cleanup" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
+- Created a pared down table for streamlined analysis <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#creating-a-pared-down-table" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
+- Got a count of members vs casual riders <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#getting-a-count-of-member-vs-casual-riders" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
+- Assessed day-of-week bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-day-of-week-bike-usage" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
+- Assessed time-of-day bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-time-of-day-bike-usage" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
+- Assessed average ride duration <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-average-ride-duration" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
 
 
 
 
 https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#one-bit-of-cleanup
 
-<a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-time-of-day-bike-usage" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
+<a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-average-ride-duration" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
 
 
 
