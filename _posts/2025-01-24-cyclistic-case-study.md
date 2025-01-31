@@ -148,6 +148,7 @@ _Pared down dataset schema:_ <br />
 To set the stage, I asked how many casual riders vs members there are. 
 
 ```
+<p style="font-size:9px">
 SELECT
     member_casual,
     COUNT(member_casual)
@@ -155,13 +156,12 @@ FROM
     `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
 GROUP BY
     member_casual
+</p>
 ```
 
-<p style="font-size:9px">
 member_casual|ride_count
 member|376003
 casual|44577
-</p>
 
 <br />
 
