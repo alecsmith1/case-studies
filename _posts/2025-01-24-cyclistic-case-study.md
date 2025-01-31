@@ -407,11 +407,13 @@ To execute these campaigns, I'd offer a key recommendation:
 
 With additional market research, data collection, and/or analysis, we could learn more about members and casual riders in ways that would help craft additional recommendations:
 
-1. Cost Data of Subscriptions vs Casual Rides -
-   - Would switching to the annual subscription provide cost savings?
+1. **Cost Data of Subscriptions vs Casual Rides** - _Would switching to the annual subscription provide cost savings?_
 
-2. Survey Data of Annual Members
-   - What aspects of their membership do they value most? e.g. cost savings? time savings? location flexibility? beating traffic? avoiding having to find parking? staying healthy? environmental benefits?
+2. **Survey Data of Annual Members** - _What aspects of their membership do they value most? e.g. cost savings? time savings? location flexibility? beating traffic? avoiding having to find parking? staying healthy? environmental benefits?_
 
-3. Survey Data of Casual Riders
-   - What can we learn about their usage of Cyclistic bikes? e.g. what factors led to them choosing to rent bikes? what did they use their bikes for? how was their experience? was there anything they wish was different? would they recommend them to a friend?
+3. **Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes? Examples:
+   - _What factors led to them choosing to rent bikes?
+   - What did they use their bikes for?
+   - How was their experience?
+   - Was there anything they wish was different?
+   - Would they recommend them to a friend?_
