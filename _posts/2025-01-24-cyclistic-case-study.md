@@ -391,26 +391,28 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 
 ## **Recommendations (Acting on Our Findings)**
 
-In this analysis we set out to answer the question: 
+#### The **question** we set out to answer: 
 - **_How do bike usage habits of annual members and casual riders differ?_**
 
-The data tells a very clear story: 
+#### The **story** the data tells us: 
 - **_Cyclistic annual members use bikes for commuting and utility purposes_**
 - **_Casual riders (single-ride and full-day pass) use bikes for leisure_**
 
-Upon review of our findings, recommendations become clear:
+#### The **primary takeaways**:
+- **_Members and casual riders' usage habits differ significantly._**
 - **_Marketing geared toward converting casual riders to members would be very worthwhile._**
 
-To execute these campaigns, I'd offer a few key recommendation:
+#### **Recommended next steps** for member acquisition marketing campaigns:
 1. Leverage existing customer data (name, email, phone, zip code) for digital remarketing campaigns across digital ad ecosystems with paid display, video, and social.
 2. Ensure digital ad campaigns are geo-targeted to those who _live in_ your targeted location and not those _interested in_ your targeted location via campaign settings and parsing customer lists by zip code to help avoid wasted budget on visiting tourists.
 3. Highlight value and key benefits in the copy to ensure not only awareness of annual membership options but compelling reasons to sign up.
 
+#### **Continuing the analysis** via additional data collection:
 With additional market research, data collection, and/or analysis, we could learn more about members and casual riders in ways that would help craft additional recommendations:
 
-**Cost Data of Subscriptions vs Casual Rides** - _Would switching to the annual subscription provide cost savings?_
+- **Cost Data of Subscriptions vs Casual Rides** - _Would switching to the annual subscription provide cost savings?_
 
-**Survey Data of Annual Members** - _What aspects of their membership do they value most?_ Examples:
+- **Survey Data of Annual Members** - _What aspects of membership do they value most? Examples:_
 
    - _Cost savings?_
    - _Time savings?_
@@ -420,7 +422,7 @@ With additional market research, data collection, and/or analysis, we could lear
    - _Staying healthy?_
    - _Environmental benefits?_
 
-**Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes?_ Examples:
+- **Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes? Examples:_
 
    - _What factors led to them choosing to rent bikes?_
    - _What did they use their bikes for?_
