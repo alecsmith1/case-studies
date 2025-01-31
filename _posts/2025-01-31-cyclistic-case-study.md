@@ -9,28 +9,27 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 <br />
 
-## **Condensed Case Study**
-
 <h2 style="text-align: center;">Condensed Case Study</h2>
 
 #### **Overview**
-**Scenario -** Bike share company Cyclistic has found that its annual members are more profitable than casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
-
-**Question / Business Task -** As a data analyst, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
+- **Scenario**
+  - Bike share company Cyclistic has found that its annual members are more profitable than casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
+- **Question / Business Task**
+  - As a data analyst, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
 <br />
 
 #### **Data Collection & Processing** - _conducted in Excel_
-- **Collection**
+- Collection
   - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy.
-- **Cleaning**
+- Cleaning - _key steps_
   - Used "Remove Duplicates" tool (no duplicates found)
   - Filtered to check all fields for null values (removed 1 record)
   - Sorted to check for outliers to avoid skewed data (removed 6,307 outlier records)
   - Used `=COUNTA(UNIQUE())` to check for errant bike stations (no issues)
   - Used `=LEN()` to check fields for uniform length (no `=TRIM()` required)
   - Ensured uniform date formats for ride `started_at` & `ended_at` fields
-- **Augmentation**
+- Augmentation - _key steps_
   - Created new field `ride_duration_hrs` via formula `=(D2-C2)&24`
   - Created new field `start_day_of_week` via formula `=WEEKDAY(C2,2)`
   - Created new field `route` via formula `=CONCATENATE(H2," ","-"," ",J2)`
