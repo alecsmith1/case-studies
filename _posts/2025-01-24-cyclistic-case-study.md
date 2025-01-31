@@ -401,16 +401,16 @@ The data tells a very clear story:
 Upon review of our findings, recommendations become clear:
 - **_Marketing geared toward converting casual riders to members would be very worthwhile._**
 
-To execute these campaigns, I'd offer a key recommendation:
-1. Since casual riders seem to be made up of both locals and visiting tourists, **ensure digital ad campaigns are geo-targeted to those who _live in_ your targeted location** and not _all_ people. This will help avoid wasted budget on visiting tourists.
-2. **Highlight value and key benefits in the copy**. Along with making Cyclistic riders aware of the annual membership, highlighting the value of your offering could be key in enticing signups.
+To execute these campaigns, I'd offer a few key recommendation:
+1. Leverage existing customer data (name, email, phone, zip code) for digital remarketing campaigns across digital ad ecosystems with paid display, video, and social.
+2. Ensure digital ad campaigns are geo-targeted to those who _live in_ your targeted location and not those _interested in_ your targeted location via campaign settings and parsing customer lists by zip code to help avoid wasted budget on visiting tourists.
+3. Highlight value and key benefits in the copy to ensure not only awareness of annual membership options but compelling reasons to sign up.
 
 With additional market research, data collection, and/or analysis, we could learn more about members and casual riders in ways that would help craft additional recommendations:
 
-1. **Cost Data of Subscriptions vs Casual Rides** - _Would switching to the annual subscription provide cost savings?_
+**Cost Data of Subscriptions vs Casual Rides** - _Would switching to the annual subscription provide cost savings?_
 
-<br />
-2. **Survey Data of Annual Members** - _What aspects of their membership do they value most?_ Examples:
+**Survey Data of Annual Members** - _What aspects of their membership do they value most?_ Examples:
 
    - _Cost savings?_
    - _Time savings?_
@@ -420,8 +420,7 @@ With additional market research, data collection, and/or analysis, we could lear
    - _Staying healthy?_
    - _Environmental benefits?_
 
-<br />
-3. **Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes?_ Examples:
+**Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes?_ Examples:
 
    - _What factors led to them choosing to rent bikes?_
    - _What did they use their bikes for?_
