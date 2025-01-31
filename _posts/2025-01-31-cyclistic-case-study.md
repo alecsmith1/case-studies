@@ -17,7 +17,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 **Question / Business Task -** As a member of the data analytics team, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
 #### **Data Collection, Cleaning, and Augmentation:**
-- **Collection -** Q1 2020 bike ride data was chosen from the <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">internal datasets</a> for its completeness and accuracy.
+- **Collection -** <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy.
 
 - **Cleaning -** Conducted in Excel:
   - Used "Remove Duplicates" tool (no duplicates found)
