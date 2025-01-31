@@ -401,11 +401,17 @@ The data tells a very clear story:
 Upon review of our findings, recommendations become clear:
 - **_Marketing geared toward converting casual riders to members would be very worthwhile._**
 
+To execute these campaigns, I'd offer a key recommendation:
+1. Since casual riders seem to be made up of both locals and visiting tourists, **ensure digital ad campaigns are geo-targeted to those who _live in_ your targeted location** and not _all_ people. This will help avoid wasted budget on visiting tourists.
+2. Highlight value and key benefits in the copywriting. Along with making Cyclistic riders _aware of_ the annual membership, highlighting the value of your offering could be key in enticing signups.
 
+With additional market research, data collection, and/or analysis, we could learn more about members and casual riders in ways that would help craft additional recommendations:
 
-With this information, it's easy to craft next steps: 
+1. Cost Data of Subscriptions vs Casual Rides -
+   - Would switching to the annual subscription provide cost savings?
 
-With more data we could answer additional questions or make additional recommendations:
+2. Survey Data of Annual Members
+   - What aspects of their membership do they value most? e.g. cost savings? time savings? location flexibility? beating traffic? avoiding having to find parking? staying healthy? environmental benefits?
 
-1. Costs of subscriptions vs daily usage - could we positions marketing campaigns around cost-savings?
-2. 
+3. Survey Data of Casual Riders
+   - What can we learn about their usage of Cyclistic bikes? e.g. what factors led to them choosing to rent bikes? what did they use their bikes for? how was their experience? was there anything they wish was different? would they recommend them to a friend?
