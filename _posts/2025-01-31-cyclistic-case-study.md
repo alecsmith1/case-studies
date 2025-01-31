@@ -11,6 +11,8 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 ## **Condensed Case Study**
 
+<h2 style="text-align: center;">Condensed Case Study</h2>
+
 #### **Overview**
 **Scenario -** Bike share company Cyclistic has found that its annual members are more profitable than casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
 
