@@ -16,9 +16,8 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 **Question / Business Task -** As a member of the data analytics team, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
-#### **Data Collection, Cleaning, and Augmentation:**
+#### **Data Collection & Processing:**
 - **Collection -** <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy.
-
 - **Cleaning -** Conducted in Excel:
   - Used "Remove Duplicates" tool (no duplicates found)
   - Filtered to check all fields for null values (removed 1 record)
@@ -26,11 +25,10 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
   - Used `=COUNTA(UNIQUE())` to check for errant bike stations (no issues)
   - Used `=LEN()` to check fields for uniform length (no `=TRIM()` required)
   - Ensured uniform date formats for ride `started_at` & `ended_at` fields
-
 - **Augmentation -** Conducted in Excel:
   - Created new field `ride_duration_hrs` via formula `=(D2-C2)&24`
   - Created new field `start_day_of_week` via formula `=WEEKDAY(C2,2)`
-  - Created new field `route` (e.g. "Start Station - End Station") via formula `=CONCATENATE(H2," ","-"," ",J2)`
+  - Created new field `route` via formula `=CONCATENATE(H2," ","-"," ",J2)`
 
 _***Data Schema** - left: raw data, right: cleaned/augmented data_
 <img src="https://github.com/user-attachments/assets/2e2c64ab-6fd1-47c6-8f62-38b466837b90" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/79e8b23b-6246-4de0-939e-296d99143e2f" alt="Alt Text" style="width:50%; height:auto;">
