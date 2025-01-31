@@ -139,7 +139,7 @@ I've conducted my data analysis in BigQuery via SQL. The steps of this analysis,
 #### **One bit of cleanup**
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
-```
+```SQL
 UPDATE `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
 SET route = REPLACE(route, 'Ð', '-')
 WHERE route LIKE '%Ð%';
@@ -150,7 +150,7 @@ WHERE route LIKE '%Ð%';
 #### **Creating a pared down table**
 The dataset contained more fields than were of use in my analysis. As such, I created a new table, paring down the list of fields/columns to only those most useful to my analysis in order to streamline query results.
 
-```
+```SQL
 SELECT 
     started_at,
     start_day_of_week,
@@ -172,7 +172,7 @@ _Pared down dataset schema:_ <br />
 #### **Getting a count of member vs casual riders**
 To set the stage, I asked how many casual riders vs members there are. 
 
-```
+```SQL
 SELECT
     member_casual,
     COUNT(member_casual)
