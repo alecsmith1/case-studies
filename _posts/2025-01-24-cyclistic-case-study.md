@@ -114,11 +114,13 @@ I've conducted my data analysis in BigQuery via SQL. The steps of this analysis,
 #### **One bit of cleanup**
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
+<p style="font-size:8px">
 ```
 UPDATE `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
 SET route = REPLACE(route, 'Ð', '-')
 WHERE route LIKE '%Ð%';
 ```
+</p>
 
 <br />
 
@@ -418,7 +420,11 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 #### **5. Continuing the analysis via additional data collection:**
 With additional market research, data collection, and/or analysis, we could learn more about members and casual riders in ways that would help craft additional recommendations:
 
+<br /> 
+
 - **Pricing Data** - _Would switching to the annual subscription provide cost savings?_
+
+<br />
 
 - **Survey Data of Annual Members** - _What aspects of membership do they value most? Examples:_
 
