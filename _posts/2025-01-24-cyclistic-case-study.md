@@ -148,7 +148,6 @@ _Pared down dataset schema:_ <br />
 To set the stage, I asked how many casual riders vs members there are. 
 
 ```
-<p style="font-size:9px">
 SELECT
     member_casual,
     COUNT(member_casual)
@@ -156,7 +155,6 @@ FROM
     `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
 GROUP BY
     member_casual
-</p>
 ```
 
 member_casual|ride_count
@@ -392,6 +390,8 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 <br />
 
 ## **Recommendations (Acting on Our Findings)**
+
+<br />
 
 #### **1. The question we set out to answer:** 
 - How do bike usage habits of annual members and casual riders differ?
