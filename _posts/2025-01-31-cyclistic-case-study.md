@@ -43,13 +43,15 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 - Assessed day-of-week bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-day-of-week-bike-usage" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
 - Assessed time-of-day bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-time-of-day-bike-usage" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
 - Assessed average ride duration <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-average-ride-duration" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
+- Assessed percentage of unique routes <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-percentage-of-unique-routes" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
+- Assessing percentage of routes starting/ending at the same station <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-percentage-of-routes-startingending-at-the-same-station" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
 
 
 
 
 https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#one-bit-of-cleanup
 
-<a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-average-ride-duration" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
+<a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-percentage-of-routes-startingending-at-the-same-station" target="_blank" rel="noopener noreferrer">(details & SQL query)</a>
 
 
 
