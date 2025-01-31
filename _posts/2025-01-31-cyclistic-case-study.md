@@ -10,12 +10,14 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br />
 
 ## **Overview (Condensed Case Study)**
-As a member of the data analytics team at the fictional company Cyclistic, I've been tasked with answering the question: _**How do the bike usage habits of annual members differ from those of casual riders?**_
+As a member of the data analytics team at the fictional company Cyclistic, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - in order to support marketing's goal of creating campaigns that drive future growth.
 
 #### **Context:**
 - **Offering** - bike-share via annual membership ("members") and one-off passes ("casual riders")
 - **Assessment** - analysts have determined annual membership is more profitable than casual riders
-- **Hypothesis** - the marketing director believes converting casual riders to members could drive future growth
+- **Hypothesis** - marketing believes campaigns to convert casual riders to members could drive growth
+- **Key Stakeholders** - Director of Marketing (my manager) & Executive Team (signs off on campaigns)
+
 
 
 <br />
