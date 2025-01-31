@@ -39,7 +39,7 @@ As a member of the data analytics team at Cyclistic, in effort to support market
   - Created new field `route` (e.g. "Start Station - End Station") via formula `=CONCATENATE(H2," ","-"," ",J2)`
 
 _***Data Schema** - left: raw data, right: cleaned/augmented data_
-<img src="https://github.com/user-attachments/assets/2e2c64ab-6fd1-47c6-8f62-38b466837b90" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/79e8b23b-6246-4de0-939e-296d99143e2f" alt="Alt Text" style="width:50%; height:auto;">
+<img src="https://github.com/user-attachments/assets/2e2c64ab-6fd1-47c6-8f62-38b466837b90" alt="Alt Text" style="width:50%; height:auto;"> <img src="https://github.com/user-attachments/assets/79e8b23b-6246-4de0-939e-296d99143e2f" alt="Alt Text" style="width:50%; height:auto;">
 
 
 <br />
