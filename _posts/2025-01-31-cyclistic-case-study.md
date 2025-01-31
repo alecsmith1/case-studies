@@ -9,8 +9,6 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 <br />
 
-<h2 style="text-align: center;"><strong>Overview (Condensed Case Study)</strong></h2>
-
 ## **Overview (Condensed Case Study)**
 As a member of the data analytics team at the fictional company Cyclistic, I've been tasked with answering the question: _**How do the bike usage habits of annual members differ from those of casual riders?**_
 
