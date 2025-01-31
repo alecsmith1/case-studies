@@ -38,10 +38,12 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 #### **Data Analysis** - _conducted via SQL in BigQuery_
 **- Cleanup** - modified the `route` field to fix an errant character <br />
-<img src="https://github.com/user-attachments/assets/7d694dba-826e-44a4-9642-964c892f487a" alt="Alt Text" style="width:50%; height:auto;">
+<img src="https://github.com/user-attachments/assets/7d694dba-826e-44a4-9642-964c892f487a" alt="Alt Text" style="width:50%; height:auto;"> <br />
 **- Created new table** - created a pared down table for streamlined analysis <br />
-<img src="https://github.com/user-attachments/assets/7e89fd8c-20ab-4153-94e6-4cdff6685ecc" alt="Alt Text" style="width:50%; height:auto;">
-**- Rider count** - getting a count of members vs casual riders
+<img src="https://github.com/user-attachments/assets/7e89fd8c-20ab-4153-94e6-4cdff6685ecc" alt="Alt Text" style="width:50%; height:auto;"> <br />
+**- Rider count** - getting a count of members vs casual riders <br />
+<img src="https://github.com/user-attachments/assets/e1937822-95f0-41e2-9945-78ede63e88ea" alt="Alt Text" style="width:50%; height:auto;"> <br />
+
 
 
 
