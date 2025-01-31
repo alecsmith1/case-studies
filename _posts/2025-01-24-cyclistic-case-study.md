@@ -428,9 +428,9 @@ With additional market research, data collection, and/or analysis, we could lear
    - _Beating traffic?_
    - _Avoiding parking challenges?_
    - _Staying healthy?_
-   - _Environmental benefits?_ <br />
-
-- **Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes? Examples:_
+   - _Environmental benefits?_
+<br />
+- **Survey Data of Casual Riders** - _What can we learn about their bike usage? Examples:_
 
    - _What factors led to them choosing to rent bikes?_
    - _What did they use their bikes for?_
