@@ -409,7 +409,9 @@ With additional market research, data collection, and/or analysis, we could lear
 
 1. **Cost Data of Subscriptions vs Casual Rides** - _Would switching to the annual subscription provide cost savings?_
 
+<br />
 2. **Survey Data of Annual Members** - _What aspects of their membership do they value most?_ Examples:
+
    - _Cost savings?_
    - _Time savings?_
    - _Location flexibility?_
@@ -419,7 +421,8 @@ With additional market research, data collection, and/or analysis, we could lear
    - _Environmental benefits?_
 
 <br />
-4. **Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes?_ Examples:
+3. **Survey Data of Casual Riders** - _What can we learn about their usage of Cyclistic bikes?_ Examples:
+
    - _What factors led to them choosing to rent bikes?_
    - _What did they use their bikes for?_
    - _How was their experience?_
