@@ -2,7 +2,7 @@
 title: "Cyclistic Bike Share Case Study"
 subtitle: "Google Data Analytics Professional Certificate Case Study"
 author: "Alec Smith"
-date: 2025-01-24
+date: 2025-01-31
 ---
 
 Welcome! This data analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate. Thank you for reading. 
