@@ -12,7 +12,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 ## **Overview (Condensed Case Study)**
 Bike share company Cyclistic has found that its annual members are more profitable than its casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
 
-As a member of the data analytics team, I've been tasked with answering the question _**how do the bike usage habits of annual members differ from those of casual riders?**_ and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
+As a member of the data analytics team, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
 ## **Overview (Condensed Case Study)**
 As a member of the data analytics team at Cyclistic, in effort to support marketing's goal of creating campaigns to drive growth, I've been tasked with answering the question: 
