@@ -9,20 +9,12 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 <br />
 
-## **Overview (Condensed Case Study)**
-Bike share company Cyclistic has found that its annual members are more profitable than its casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
+## **Condensed Case Study**
 
-As a member of the data analytics team, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
+#### **Overview**
+**Scenario -** Bike share company Cyclistic has found that its annual members are more profitable than its casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
 
-## **Overview (Condensed Case Study)**
-As a member of the data analytics team at Cyclistic, in effort to support marketing's goal of creating campaigns to drive growth, I've been tasked with answering the question: 
-- **How do the bike usage habits of annual members differ from those of casual riders?**
-
-#### **Context:**
-- **Offering** - bike-share via annual membership ("members") and one-off passes ("casual riders")
-- **Assessment** - analysts have determined annual membership is more profitable than casual riders
-- **Hypothesis** - marketing believes converting casual riders to members could drive future growth
-- **Key Stakeholders** - Director of Marketing & Executive Team
+**Question / Business Task -** As a member of the data analytics team, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
 #### **Data Collection, Cleaning, and Augmentation:**
 - **Collection -** Q1 2020 bike ride data was chosen from the <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">internal datasets</a> for its completeness and accuracy.
@@ -30,10 +22,7 @@ As a member of the data analytics team at Cyclistic, in effort to support market
 - **Cleaning -** Conducted in Excel:
   - Used "Remove Duplicates" tool (no duplicates found)
   - Filtered to check all fields for null values (removed 1 record)
-  - Sorted to check for outliers to avoid skewed data
-    - Removed 2,500 records with zero min. ride duration
-    - Removed 41 records with ride duration exceeding 14 days
-    - Removed 3,766 records started & ended at Cyclistic HQ
+  - Sorted to check for outliers to avoid skewed data (removed 6,307 outlier records)
   - Used `=COUNTA(UNIQUE())` to check for errant bike stations (no issues)
   - Used `=LEN()` to check fields for uniform length (no `=TRIM()` required)
   - Ensured uniform date formats for ride `started_at` & `ended_at` fields
@@ -44,7 +33,7 @@ As a member of the data analytics team at Cyclistic, in effort to support market
   - Created new field `route` (e.g. "Start Station - End Station") via formula `=CONCATENATE(H2," ","-"," ",J2)`
 
 _***Data Schema** - left: raw data, right: cleaned/augmented data_
-<img src="https://github.com/user-attachments/assets/2e2c64ab-6fd1-47c6-8f62-38b466837b90" alt="Alt Text" style="width:50%; height:auto;"> <img src="https://github.com/user-attachments/assets/79e8b23b-6246-4de0-939e-296d99143e2f" alt="Alt Text" style="width:50%; height:auto;">
+<img src="https://github.com/user-attachments/assets/2e2c64ab-6fd1-47c6-8f62-38b466837b90" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/79e8b23b-6246-4de0-939e-296d99143e2f" alt="Alt Text" style="width:50%; height:auto;">
 
 
 <br />
