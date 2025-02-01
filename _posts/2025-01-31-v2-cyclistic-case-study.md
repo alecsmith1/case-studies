@@ -1,5 +1,5 @@
 ---
-title: "Cyclistic Bike Share Case Study"
+title: "Cyclistic Bikes - Growth Through Membership"
 subtitle: "Google Data Analytics Professional Certificate Case Study"
 author: "Alec Smith"
 date: 2025-01-31
@@ -9,15 +9,18 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 <br />
 
-<h2 style="text-align: center;">Condensed Case Study</h2>
-
-#### **Overview**
+## **Overview**
 - **Scenario**
   - Bike share company Cyclistic has found that its annual members are more profitable than casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
 - **Question / Business Task**
   - As a data analyst, I've been tasked with answering the question - _**how do the bike usage habits of annual members differ from those of casual riders?**_ - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
 <br />
+
+## **Analysis Process Overview**
+- **Data Collection** - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy.
+- **Data Cleaning** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel" target="_blank" rel="noopener noreferrer">(full list of cleaning steps here)</a>
+
 
 #### **Data Collection & Processing** - _conducted in Excel_
 - **Collection**
