@@ -21,25 +21,20 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 ## **Findings / Analysis Summary**
 Takeaways from this analysis were pretty clear cut:
-1. There are ample casual riders to justify campaigns to convert casual riders to members.
-2. Member riders tend to use bikes mostly for commute and utility.
-3. Casual riders appear to use bikes for leisure and/or tourism. 
-
-Visualizing the bike usage trends:
+1. Member riders tend to use bikes mostly for commute and utility.
+2. Casual riders appear to use bikes for leisure and/or tourism. 
 
 #### **Members favor weekdays, casual riders favor weekends** 
 Members' week day riding vs casual riders' weekend riding may indicate business vs leisure use.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
-#### **Members commute, casual rider explore**
+#### **Members commute, casual riders explore**
 Members' riding aligns with work commutes while casual rides happen throughout the day.
 
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
 
-<br />
-
-#### **3. Members ride for much shorter duration than casual riders**
+#### **Members ride for much shorter duration than casual riders**
 Shorter average ride times (12 minutes) for members may indicate more utilitarian usage of bikes for purposes such as commutes or errands, while longer average ride times (62 minutes) for casual riders may indicate more leisurely riding.
 
 **Ride Duration** |	**Members**	|**Casual Riders**
@@ -60,6 +55,9 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 <img src="https://github.com/user-attachments/assets/b8cc6bb9-275d-4e08-95c1-bb8ff6b2ae01" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d74d28a5-a03a-49a6-a111-ad1ddbf29235" alt="Alt Text" style="width:50%; height:auto;">
 
 
+Recommendations:
+
+1. There are ample casual riders to justify campaigns to convert casual riders to members.
 
 
 
