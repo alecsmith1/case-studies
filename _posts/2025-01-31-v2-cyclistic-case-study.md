@@ -33,15 +33,13 @@ Takeaways from this analysis were pretty clear cut:
 
 Visualizing the bike usage trends:
 
-#### **1. Members favor weekdays, casual riders favor weekends** 
+#### **Members favor weekdays, casual riders favor weekends** 
 Members' week day riding vs casual riders' weekend riding may indicate business vs leisure use.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
-<br />
-
-#### **2. Members ride before/after work day, casual rider usage more diverse**
-Member bike usage corresponds pretty cleanly with business hours, indicating likely use of bikes to commute, while casual riders pretty evenly from late morning through sundown.
+#### **Members commute, casual rider explore**
+Members' riding aligns with work commutes while casual rides happen throughout the day.
 
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
 
