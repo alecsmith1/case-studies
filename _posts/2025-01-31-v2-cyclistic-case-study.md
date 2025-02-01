@@ -31,12 +31,10 @@ Takeaways from this analysis were pretty clear cut:
 2. Member riders tend to use bikes mostly for commute and utility.
 3. Casual riders appear to use bikes for leisure and/or tourism. 
 
-Let's visualize the data to see the clear bike usage trends that support these findings.
-
-<br />
+Visualizing the bike usage trends:
 
 #### **1. Members favor weekdays, casual riders favor weekends** 
-Members riding on business days while casual riders ride a lot on weekends may indicate business versus leisure usage of bikes.
+Members' week day riding vs casual riders' weekend riding may indicate business vs leisure use.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
