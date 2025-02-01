@@ -18,8 +18,9 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br />
 
 ## **Analysis Process Overview**
-- **Data Collection** - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy.
-- **Data Cleaning** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel" target="_blank" rel="noopener noreferrer">(full list of cleaning steps here)</a>
+- **Data Collection** - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy
+- **Data Cleaning** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel" target="_blank" rel="noopener noreferrer">(detailed list of cleaning steps & formulas used)</a>
+- **Data Augmentation** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-augmentation---steps-taken" target="_blank" rel="noopener noreferrer">(detailed list of augmentation steps & formulas used)</a>
 
 
 #### **Data Collection & Processing** - _conducted in Excel_
