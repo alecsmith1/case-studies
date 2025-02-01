@@ -9,7 +9,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 <br />
 
-## **Overview**
+## **Scenario Overview**
 - **Scenario**
   - Bike share company Cyclistic has found that its annual members are more profitable than casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
 - **Question / Business Task**
@@ -23,35 +23,9 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 - **Data Augmentation** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-augmentation---steps-taken" target="_blank" rel="noopener noreferrer">(detailed list of augmentation steps & formulas used)</a>
 - **Data Analysis** - conducted via SQL in BigQuery <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-analysis---conducted-with-sql-in-bigquery" target="_blank" rel="noopener noreferrer">(detailed list of SQL queries & results)</a>
 
-
-
-
-#### **Data Collection & Processing** - _conducted in Excel_
-- **Collection**
-  - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy.
-- **Cleaning** - _key steps_
-  - Used "Remove Duplicates" tool (no duplicates found)
-  - Filtered to check all fields for null values (removed 1 record)
-  - Sorted to check for outliers to avoid skewed data (removed 6,307 outlier records)
-  - Used `=COUNTA(UNIQUE())` to check for errant bike stations (no issues)
-  - Used `=LEN()` to check fields for uniform length (no `=TRIM()` required)
-  - Ensured uniform date formats for ride `started_at` & `ended_at` fields
-- **Augmentation** - _key steps_
-  - Created new field `ride_duration_hrs` via formula `=(D2-C2)&24`
-  - Created new field `start_day_of_week` via formula `=WEEKDAY(C2,2)`
-  - Created new field `route` via formula `=CONCATENATE(H2," ","-"," ",J2)`
-
 <br />
 
-#### **Data Analysis** - _conducted via SQL in BigQuery_
-- Modified the `route` field to fix an errant character <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#one-bit-of-cleanup" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
-- Created a pared down table for streamlined analysis <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#creating-a-pared-down-table" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
-- Got a count of members vs casual riders <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#getting-a-count-of-member-vs-casual-riders" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
-- Assessed day-of-week bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-day-of-week-bike-usage" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
-- Assessed time-of-day bike usage <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-time-of-day-bike-usage" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
-- Assessed average ride duration <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-average-ride-duration" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
-- Assessed percentage of unique routes <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-percentage-of-unique-routes" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
-- Assessed percentage of routes starting/ending at the same station <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#assessing-percentage-of-routes-startingending-at-the-same-station" target="_blank" rel="noopener noreferrer">(SQL query & results)</a>
+## **Findings / Analysis Summary**
 
 
 
