@@ -1,5 +1,5 @@
 ---
-title: "Cyclistic Bikes - Growth Through Membership"
+title: "Cyclistic Bikes - Membership Growth"
 subtitle: "Google Data Analytics Professional Certificate Case Study"
 author: "Alec Smith"
 date: 2025-01-31
