@@ -19,13 +19,55 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 ## **Analysis Process Overview**
 - **Data Collection** - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy
-- **Data Cleaning** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel" target="_blank" rel="noopener noreferrer">(detailed list of cleaning steps & formulas used)</a>
-- **Data Augmentation** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-augmentation---steps-taken" target="_blank" rel="noopener noreferrer">(detailed list of augmentation steps & formulas used)</a>
-- **Data Analysis** - conducted via SQL in BigQuery <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-analysis---conducted-with-sql-in-bigquery" target="_blank" rel="noopener noreferrer">(detailed list of SQL queries & results)</a>
+- **Cleaning** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel" target="_blank" rel="noopener noreferrer">(detailed list of cleaning steps & formulas used)</a>
+- **Augmentation** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-augmentation---steps-taken" target="_blank" rel="noopener noreferrer">(detailed list of augmentation steps & formulas used)</a>
+- **Analysis** - conducted via SQL in BigQuery <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-analysis---conducted-with-sql-in-bigquery" target="_blank" rel="noopener noreferrer">(detailed list of SQL queries & results)</a>
 
 <br />
 
 ## **Findings / Analysis Summary**
+Takeaways from this analysis were pretty clear cut:
+1. There are ample casual riders to justify campaigns to convert casual riders to members.
+2. Member riders tend to use bikes mostly for commute and utility.
+3. Casual riders appear to use bikes for leisure and/or tourism. 
+
+Let's visualize the data to see the clear bike usage trends that support these findings.
+
+<br />
+
+#### **1. Members favor weekdays, casual riders favor weekends** 
+Members riding on business days while casual riders ride a lot on weekends may indicate business versus leisure usage of bikes.
+
+<img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
+
+<br />
+
+#### **2. Members ride before/after work day, casual rider usage more diverse**
+Member bike usage corresponds pretty cleanly with business hours, indicating likely use of bikes to commute, while casual riders pretty evenly from late morning through sundown.
+
+<img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
+
+<br />
+
+#### **3. Members ride for much shorter duration than casual riders**
+Shorter average ride times (12 minutes) for members may indicate more utilitarian usage of bikes for purposes such as commutes or errands, while longer average ride times (62 minutes) for casual riders may indicate more leisurely riding.
+
+**Ride Duration** |	**Members**	|**Casual Riders**
+Avg.  duration|	12 mins	|62 mins
+
+<br />
+
+#### **4. Members ride a much higher percentage of repeat routes**
+In another demonstration that members likely use bikes for day-to-day commute, member riders have a much higher percentage of repeated routes ridden, compared to casual riders which have a more balanced blend of repeated and unique routes ridden.
+
+<img src="https://github.com/user-attachments/assets/0eb6465b-4dbe-4e2f-84ac-1b43c4499991" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/544732ff-1a4b-47bb-8cdf-ac4d9e19ca8c" alt="Alt Text" style="width:50%; height:auto;">
+
+<br />
+
+#### **5. Members nearly always ride from point A to point B**
+98% of members' rides start and end at different bike stations, again pointing to utilitarian usage for commute or to get from point A to point B. Casual riders, on the other hand, will often ride from point A to point B, but also start and end their ride at the same station with greater frequency, indicating potentially riding a loop for tourist type activities or to finish their ride back where they started perhaps to return to their vehicle.
+
+<img src="https://github.com/user-attachments/assets/b8cc6bb9-275d-4e08-95c1-bb8ff6b2ae01" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d74d28a5-a03a-49a6-a111-ad1ddbf29235" alt="Alt Text" style="width:50%; height:auto;">
 
 
 
@@ -45,6 +87,11 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 ---
 
 <br />
+
+
+
+
+
 
 ## **About The Company**
 
