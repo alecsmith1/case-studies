@@ -431,23 +431,23 @@ member | Same Station | 7481 | 1.99%
 
 ## **Sharing (Interpreting the Analysis)**
 
-Takeaways are pretty clear cut from this data set. Our primary learnings are:
-1. Member riders tend to use bikes mostly for commute as well as tasks like errands during their week.
-2. Casual riders appear to use bikes either/both more for tourism or leisure in their own city. 
+Takeaways are pretty clear cut from this data set:
+1. Member riders tend to use bikes mostly for commutes as well as tasks like errands during their week.
+2. Casual riders appear to use bikes either/both for tourism or leisure in their own city. 
 
-Let's visualize the data to see the clear bike usage trends that support these findings.
+Visualizing the data gives us more of a look into the bike usage trends I found.
 
 <br />
 
 #### **Members favor weekdays, casual riders favor weekends** 
-Members riding on business days while casual riders ride a lot on weekends may indicate business versus leisure usage of bikes.
+Members ride more on business days while casual riders ride a lot on weekends, a contrast that may indicate business versus leisure usage of bikes.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
 <br />
 
 #### **Members ride before/after work day, casual rider usage more diverse**
-Member bike usage corresponds pretty cleanly with business hours, indicating likely use of bikes to commute, while casual riders pretty evenly from late morning through sundown.
+Member bike usage corresponds pretty cleanly with business hours, indicating likely use of bikes to commute, while casual riders ride pretty evenly from late morning through sundown.
 
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
 
@@ -462,14 +462,14 @@ Avg.  duration|	12 mins	|62 mins
 <br />
 
 #### **Members ride a much higher percentage of repeat routes**
-In another demonstration that members likely use bikes for day-to-day commute, member riders have a much higher percentage of repeated routes ridden, compared to casual riders which have a more balanced blend of repeated and unique routes ridden.
+In another demonstration that members likely use bikes for day-to-day commute, member riders have a much higher percentage of repeated routes ridden, compared to casual riders which have a more balanced blend of repeated and unique routes.
 
 <img src="https://github.com/user-attachments/assets/0eb6465b-4dbe-4e2f-84ac-1b43c4499991" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/544732ff-1a4b-47bb-8cdf-ac4d9e19ca8c" alt="Alt Text" style="width:50%; height:auto;">
 
 <br />
 
 #### **Members nearly always ride from point A to point B**
-98% of members' rides start and end at different bike stations, again pointing to utilitarian usage for commute or to get from point A to point B. Casual riders, on the other hand, will often ride from point A to point B, but also start and end their ride at the same station with greater frequency, indicating potentially riding a loop for tourist type activities or to finish their ride back where they started perhaps to return to their vehicle.
+98% of members' rides start and end at different bike stations, again pointing to utility bike usage for commute or to get from point A to point B. Casual riders, on the other hand, will often ride from point A to point B, but also start and end their ride at the same station with greater frequency, indicating potentially riding a loop for tourist type activities or to finish their ride back where they started perhaps to return to their vehicle.
 
 <img src="https://github.com/user-attachments/assets/b8cc6bb9-275d-4e08-95c1-bb8ff6b2ae01" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d74d28a5-a03a-49a6-a111-ad1ddbf29235" alt="Alt Text" style="width:50%; height:auto;">
 
@@ -483,32 +483,32 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 
 <br />
 
-#### **1. The question we set out to answer:** 
+#### **1. The question we set out to answer** 
 - How do bike usage habits of annual members and casual riders differ?
 
 <br />
 
-#### **2. The story the data tells us:**
-- Cyclistic annual members use bikes for commuting and utility purposes.
+#### **2. The story the data tells us**
+- Annual members use bikes for commuting and utility purposes.
 - Casual riders (single-ride and full-day pass) use bikes for leisure.
 
 <br />
 
-#### **3. The primary takeaways:**
-- There are ample casual riders with which to justify targeting campaigns toward encouraging them to become annual members.
+#### **3. The primary takeaways**
+- There are ample casual riders to justify campaigns geared toward converting them to annual members.
 - Members and casual riders' usage habits differ significantly.
 - Marketing geared toward converting casual riders to members would be very worthwhile.
 
 <br />
 
-#### **4. Recommended next steps for member acquisition marketing campaigns:**
+#### **4. Recommended next steps for member acquisition marketing campaigns**
 1. Leverage existing customer data (name, email, phone, zip code) for digital remarketing campaigns across digital ad ecosystems with paid display, video, and social.
 2. Ensure digital ad campaigns are geo-targeted to those who _live in_ your targeted location and not those _interested in_ your targeted location via campaign settings and parsing customer lists by zip code to help avoid wasted budget on visiting tourists.
 3. Highlight value and key benefits in the copy to ensure not only awareness of annual membership options but compelling reasons to sign up.
 
 <br />
 
-#### **5. Continuing the analysis via additional data collection:**
+#### **5. Continuing the analysis via additional data collection**
 With additional market research, data collection, and/or analysis, we could learn more about members and casual riders in ways that would help craft additional recommendations:
 
 <br /> 
@@ -536,3 +536,11 @@ With additional market research, data collection, and/or analysis, we could lear
    - _How was their experience?_
    - _Was there anything they wish was different?_
    - _Would they recommend them to a friend?_
+
+<br />
+
+--- 
+
+<br />
+
+This concludes my case study of Cyclistic bike usages. Thank you for reading. I look forward to applying these data analytics skills in our work together.
