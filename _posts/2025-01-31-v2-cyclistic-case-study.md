@@ -52,7 +52,7 @@ Members nearly always ride to get somewhere, while casual riders are more likely
 
 ## **Recommendations**
 The data clearly justifies campaigns aimed at converting casual riders to members, since:
-1. There are clear trends in and differences between the riding habits of members and casual riders, and
+1. There are clear differences in the riding habits of members and casual riders.
 2. There are a wealth of casual Cyclistic riders to target.
 
 #### **Key considerations for next step member acquisition marketing campaigns**
