@@ -195,9 +195,8 @@ _Cleaned & augmented dataset schema:_ <br />
 
 <br />
 
-## **Data Analysis** - _conducted with SQL in BigQuery_
-
-I've conducted my data analysis in BigQuery via SQL. The steps of this analysis, consisting of the issues I set out to resolve and the questions I set out to answer, are laid out below, along with the corresponding SQL queries used to garner the data and insights I sought.
+## **Data Analysis** - _conducted in BigQuery with SQL_
+Data analysis was conducted via SQL in BigQuery. The steps of my analysis, consisting of issues I set out to resolve and and questions I set out to answer, are laid out below, along with the corresponding SQL queries used to garner the data.
 
 <br />
 
@@ -247,7 +246,7 @@ GROUP BY
     member_casual
 ```
 
-member_casual|ride_count
+**member_casual**|**ride_count**
 member|376003
 casual|44577
 
@@ -271,7 +270,7 @@ ORDER BY
     start_day_of_week ASC
 ```
 
-member_casual|	start_day_of_week|	num_of_rides
+**member_casual**|	**start_day_of_week**|	**num_of_rides**
 member|	1|	61565
 member|	2|	69310
 member|	3|	63608
@@ -304,7 +303,7 @@ ORDER BY
     ride_category;
 ```
 
-member_casual	|day_of_week_category	|ride_count
+**member_casual**	|**day_of_week_category**	|**ride_count**
 casual	|Weekday	|22272
 casual	|Weekend	|22305
 member	|Weekday	|310460
@@ -314,10 +313,10 @@ member	|Weekend	|65543
 
 #### **One bit of troubleshooting**
 **Issue -** <br />
-I found that in the original dataset CSV, timestamps' timezones were unmarked and listed in local time (Central Time, Chicago). However, when the dataset was uploaded to BigQuery, BigQuery had listed "UTC" with the timestamp. I originally interpreted this to mean BigQuery had adjusted the timestamps to UTC time since the time zone was unmarked in the data itself. As a result, I thought I would need to include a timezone adjustment in my SQL queries to ensure day-of-time analyses would properly reflect local Chicago time. Including a timezone adjustment in my SQL queries resulted in misleading data about times of day bikes were used.
+I found that in the original dataset CSV, timestamps' timezones were unmarked and listed in local time (Central Time, Chicago). However, when the dataset was uploaded to BigQuery, BigQuery had listed "UTC" with the timestamp. I originally interpreted this to mean BigQuery had adjusted the timestamps to UTC time since the time zone was unmarked in the data itself. As a result, I had included a timezone adjustment in my SQL queries to ensure day-of-time analyses would properly reflect local Chicago time. However, including a timezone adjustment in my SQL queries resulted in misleading data about times of day bikes were used.
 
 **Troubleshooting / solution -** <br />
-A deeper dive was needed so I began crosschecking the CSV with the data table in BigQuery. What I found was that BigQuery had _not_ in fact adjusted the timezone to UTC, it had simply applied the timezone label "UTC" to timestamps that were in local Chicago time. With this takeaway, I was able to conduct time-of-day analyses that provided meaningful takeaways.
+A deeper dive, crosschecking the original CSV with the data table in BigQuery, led to the finding that BigQuery had _not_ in fact adjusted the timezone to UTC, but rather had simply applied the timezone label of "UTC" to timestamps that were actually in local Chicago time. With this takeaway, I was able to conduct time-of-day analyses that provided meaningful takeaways.
 
 <br />
 
@@ -350,7 +349,7 @@ _**Casual rider** bike usage by hour:_
 <br />
 
 #### **Assessing average ride duration**
-At this point, I wanted to further assess what the data appeared to be demonstrating, which is that members use bikes for commute purposes and casual riders use bikes for leisure. To further investigate I looked at average ride duration, anticipating that commutes to/from work would last ~20 minutes or less, while leisurely rides would longer, perhaps ~1 hour or longer.
+At this point, I wanted to further assess what the data appeared to be demonstrating, which is that members use bikes for commute purposes and casual riders use bikes for leisure. To further investigate I looked at average ride duration, anticipating that commutes to/from work would last ~20 minutes or less, while leisurely rides would longer, perhaps ~1 hour or longer, which proved to be true.
 
 ```
 SELECT 
@@ -366,7 +365,7 @@ ORDER BY
     member_casual
 ```
 
-member_casual | shortest_ride_hrs | longest_ride_hrs | avg_ride_duration_hrs
+**member_casual** | **shortest_ride_hrs** | **longest_ride_hrs** | **avg_ride_duration_hrs**
 casual | 0.02 | 311.37 | 1.03
 member | 0.02 | 173.73 | 0.20
 
@@ -389,14 +388,14 @@ ORDER BY
     unique_routes DESC;
 ```
 
-member_casual | unique_routes | total_rides | unique_rides_as_percent_of_total
+**member_casual** | **unique_routes** | **total_rides** | **unique_rides_as_percent_of_total**
 member | 47593 | 376003 | 12.66%
 casual | 16761 | 44577 | 37.60%
 
 <br />
 
 #### **Assessing percentage of routes starting/ending at the same station**
-In a very similar sense to the unique routes percentage assessed above, I anticipated we'd see a higher rate of member rides that started and ended at different stations, since members may be commuting from point A to point B on their ride. And in contrast, I anticipated casual riders would have a higher percentage of their rides that started and ended in the same location since leisurely riders might be traveling in a tourist loop and/or need to dock the bikes back where they started at the end of their ride to return to their vehicle.
+In a very similar sense to the unique routes percentage assessed above, I anticipated we'd see a higher rate of member rides that started and ended at different stations, since members may be commuting from point A to point B on their ride. And in contrast, I anticipated casual riders would have a higher percentage of their rides that started and ended in the same location since leisurely riders might be traveling in a tourist loop and/or need to dock the bikes back where they started at the end of their ride to return to their vehicle. This, too, proved to be true.
 
 ```
 SELECT 
@@ -406,7 +405,7 @@ SELECT
         ELSE 'Different Station'
     END AS same_or_diff_station,
     COUNT(*) AS ride_count, -- Total rides for each ride type
-    ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY member_casual), 2) AS ride_percentage -- Percentage of rides
+    ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY member_casual), 2) AS ride_percentage
 FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
 GROUP BY 
     member_casual, 
@@ -416,7 +415,7 @@ ORDER BY
     same_or_diff_station;
 ```
 
-member_casual | same_or_diff_station | ride_count | ride_percentage
+**member_casual** | **same_or_diff_station** | **ride_count** | **ride_percentage**
 casual | Different Station | 38007 | 85.26%
 casual | Same Station | 6570 | 14.74%
 member | Different Station | 368522 | 98.01%
