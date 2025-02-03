@@ -60,6 +60,14 @@ The data clearly justifies campaigns aimed at converting casual riders to member
 2. Avoid wasted spend on tourists by leveraging customer zip codes and campaign settings to ensure targeting of those who _live in_ (not those _interested in_) your targeted locations.
 3. Compel casual riders to consider membership by using ads to both generate awareness _and_ highlight value and benefits of membership. 
 
+## **Continuing analysis via additional data collection**
+Additional data collection would allow for the crafting of more robust marketing recommendations, such as:
+
+- **Pricing Data (internal)** - _Would switching to the annual subscription provide cost savings?_
+- **Annual Member Data (survey)** - _What aspects of membership do members value most? e.g. cost savings? time savings? health/environment benefits? ease of commute by eliminating traffic and parking? etc._
+- **Casual Rider Data (survey)** - _What can we learn about casual riders' bike usage? e.g. factors that led to their bike rental, their purpose in renting, rating their experience, feedback, etc._
+
+
 <br />
 
 --- 
