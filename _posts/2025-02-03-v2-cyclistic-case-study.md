@@ -73,8 +73,6 @@ The data clearly justifies campaigns aimed at converting casual riders to member
 1. There are clear differences in the riding habits of members and casual riders.
 2. There are a wealth of casual Cyclistic riders to target.
 
-<br />
-
 #### **Key considerations for next step member acquisition marketing campaigns**
 1. Reach the right audience by leveraging existing customer data (name, email, phone, zip code) for digital remarketing campaigns across display, video, and paid social.
 2. Avoid wasted spend on tourists by leveraging customer zip codes and campaign settings to ensure targeting of those who _live in_ (not those _interested in_) your targeted locations.
@@ -90,9 +88,9 @@ Additional marketing recommendations could be made via further data collection, 
 
 <br />
 
-## <span style="color:#e97132;"><strong>Detailed Overview & Analysis Process</strong></span>
+## <span style="color:#e97132;"><strong>Detailed Study & Analysis Process</strong></span>
 
-## <h2 style="text-align: center;">Membership Growth</h2>
+<h2 style="text-align: center; font-weight: bold; color: #e97132;">Detailed Study & Analysis Process</h2>
 
 <h2 style="text-align: center;">Membership Growth</h2>
 
