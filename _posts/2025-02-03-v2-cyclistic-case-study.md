@@ -88,11 +88,7 @@ Additional marketing recommendations could be made via further data collection, 
 
 <br />
 
-## <span style="color:#e97132;"><strong>Detailed Study & Analysis Process</strong></span>
-
-<h2 style="text-align: center; font-weight: bold; color: #e97132;">Detailed Study & Analysis Process</h2>
-
-<h2 style="text-align: center;">Membership Growth</h2>
+<h1 style="text-align: center; font-weight: bold; color: #e97132;">Detailed Study & Analysis Process</h1>
 
 <br />
 
