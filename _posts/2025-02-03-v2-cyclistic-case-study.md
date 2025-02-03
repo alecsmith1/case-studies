@@ -30,15 +30,21 @@ Takeaways from this analysis were pretty clear cut:
 1. Member riders tend to use bikes mostly for commute and utility.
 2. Casual riders appear to use bikes for leisure and/or tourism. 
 
+<br />
+
 #### **Members favor weekdays, casual riders favor weekends** 
 Members' week day riding vs casual riders' weekend riding may indicate business vs leisure use.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
+<br />
+
 #### **Members commute, casual riders explore**
 Members' riding aligns with work commutes while casual rides happen throughout the day.
 
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
+
+<br />
 
 #### **Members ride for much shorter duration than casual riders**
 Ride durations for member vs. casual riders may further indicate utilitarian vs leisurely use.
@@ -46,15 +52,21 @@ Ride durations for member vs. casual riders may further indicate utilitarian vs 
 **Ride Duration** |	**Members**	|**Casual Riders**
 Avg.  duration|	12 mins	|62 mins
 
+<br />
+
 #### **Members ride a much higher percentage of repeat routes**
 Further demonstrating members likely riding for commute, members ride a much higher percentage of repeated routes.
 
 <img src="https://github.com/user-attachments/assets/0eb6465b-4dbe-4e2f-84ac-1b43c4499991" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/544732ff-1a4b-47bb-8cdf-ac4d9e19ca8c" alt="Alt Text" style="width:50%; height:auto;">
 
+<br />
+
 #### **Members nearly always ride from point A to point B**
 Members nearly always ride to get somewhere, while casual riders are more likely to start and end a ride at the same bike station, perhaps riding a tourist loop or returning to their vehicle post-riding.
 
 <img src="https://github.com/user-attachments/assets/b8cc6bb9-275d-4e08-95c1-bb8ff6b2ae01" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d74d28a5-a03a-49a6-a111-ad1ddbf29235" alt="Alt Text" style="width:50%; height:auto;">
+
+<br />
 
 ## **Recommendations**
 The data clearly justifies campaigns aimed at converting casual riders to members, since:
@@ -65,6 +77,8 @@ The data clearly justifies campaigns aimed at converting casual riders to member
 1. Reach the right audience by leveraging existing customer data (name, email, phone, zip code) for digital remarketing campaigns across display, video, and paid social.
 2. Avoid wasted spend on tourists by leveraging customer zip codes and campaign settings to ensure targeting of those who _live in_ (not those _interested in_) your targeted locations.
 3. Compel casual riders to consider membership by using ads to both generate awareness _and_ highlight value and benefits of membership. 
+
+<br />
 
 ## **Continuing analysis via additional data collection**
 Additional marketing recommendations could be made via further data collection, such as:
