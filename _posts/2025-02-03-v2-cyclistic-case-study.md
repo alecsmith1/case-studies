@@ -26,9 +26,11 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br /> 
 
 ## **Findings / Analysis Summary**
-Takeaways from this analysis were pretty clear cut:
-1. Member riders tend to use bikes mostly for commute and utility.
-2. Casual riders appear to use bikes for leisure and/or tourism. 
+<span style="color:#e97132;"><strong>Takeaways from this analysis were pretty clear cut:</strong></span>
+
+
+1. <span style="color:#e97132;"><strong>Member riders tend to use bikes mostly for commute and utility.</strong></span>
+2. <span style="color:#e97132;"><strong>Casual riders appear to use bikes for leisure and/or tourism.</strong></span>
 
 <br />
 
