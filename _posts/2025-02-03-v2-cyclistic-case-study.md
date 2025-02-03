@@ -69,11 +69,11 @@ Members nearly always ride to get somewhere, while casual riders are more likely
 <br />
 
 ## **Recommendations**
-The data clearly justifies campaigns aimed at converting casual riders to members, since:
+<span style="color:#e97132;"><strong>Cyclistic should execute campaigns aimed at converting casual riders to members</strong></span>, since:
 1. There are clear differences in the riding habits of members and casual riders.
 2. There are a wealth of casual Cyclistic riders to target.
 
-#### **Key considerations for next step member acquisition marketing campaigns**
+#### **Keys to successful member acquisition marketing campaigns**
 1. **Reach the right audience** by leveraging existing customer data (name, email, phone, zip code) for digital remarketing campaigns across display, video, and paid social.
 2. **Avoid wasted spend** on tourists by leveraging customer zip codes and campaign settings to ensure targeting of those who _live in_ (not those _interested in_) your targeted locations.
 3. **Compel casual riders** to consider membership by using ads to both generate awareness _and_ highlight value and benefits of membership. 
