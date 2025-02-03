@@ -88,25 +88,19 @@ Additional marketing recommendations could be made via further data collection, 
 - **Annual Member Data (survey)** - _What aspects of membership do members value most? e.g. cost or time savings? health or environment benefits? eliminating traffic or parking concerns? etc._
 - **Casual Rider Data (survey)** - _What can we learn about casual riders' bike usage? e.g. factors that led to rental, purpose in renting, rating their experience, feedback, etc._
 
-
 <br />
 
---- 
+## <span style="color:#e97132;"><strong>Detailed Overview & Analysis Process</strong></span>
 
-<br />
+## <h2 style="text-align: center;">Membership Growth</h2>
 
-## **Full Analysis Process (Detailed Case Study)**
+<h2 style="text-align: center;">Membership Growth</h2>
 
 <br />
 
 ---
 
 <br />
-
-
-
-
-
 
 ## **About The Company**
 
