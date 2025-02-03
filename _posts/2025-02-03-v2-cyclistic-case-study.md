@@ -2,7 +2,7 @@
 title: "Cyclistic Bikes - Membership Growth"
 subtitle: "Google Data Analytics Professional Certificate Case Study"
 author: "Alec Smith"
-date: 2025-01-31
+date: 2025-02-03
 ---
 
 Welcome! This analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate based on a fictional bike share company. Thank you for reading. 
