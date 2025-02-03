@@ -26,7 +26,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br /> 
 
 ## **Findings / Analysis Summary**
-<span style="color:#e97132;"><strong>Takeaways from this analysis were pretty clear cut:</strong></span>
+<span style="color:#e97132;"><strong>Takeaways from this analysis are clear:</strong></span>
 
 
 1. <span style="color:#e97132;"><strong>Member riders tend to use bikes mostly for commute and utility.</strong></span>
@@ -71,7 +71,7 @@ Members nearly always ride to get somewhere, while casual riders are more likely
 <br />
 
 ## **Recommendations**
-<span style="color:#e97132;"><strong>Cyclistic should execute campaigns aimed at converting casual riders to members</strong></span>, since:
+<span style="color:#e97132;"><strong>Cyclistic should execute campaigns aimed at converting casual riders to members</strong></span>. Reasoning:
 1. There are clear differences in the riding habits of members and casual riders.
 2. There are a wealth of casual Cyclistic riders to target.
 
