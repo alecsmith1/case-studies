@@ -144,7 +144,6 @@ Analyze Cyclistic historical bike trip data to understand how annual members and
 
 - **Data Source –** Data used in this analysis is internal to the company and can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
 - **Data License –** Data made available for public use via the [data license agreement](https://divvybikes.com/data-license-agreement).
-- **Data License –** Licensing info can be found in the [data license agreement](https://divvybikes.com/data-license-agreement) that makes it available for public use.
 - **Data Set –** For this study, I chose to use Q1 2020 data due to its accuracy and completeness and thanks to its robust nature, consisting of hundreds of thousands of records.
 - **Data Storage –** Data stored locally for the duration of the project as well as in BigQuery where SQL analysis was conducted.
 
@@ -158,8 +157,7 @@ _Raw dataset schema:_ <br />
 <br />
 
 ## **Data Processing** - _conducted in Excel_
-
-I've conducted my data processing and cleaning in Excel. The dataset was largely clean and complete. However, via sorting, filtering, verifying and transforming data types, and creating new data points and fields, I was able to ensure data integrity and cleanliness, as well as set up the additional fields that would provide for robust and streamlined upcoming analysis stages.
+Data processing and cleaning was conducted in Excel. Via sorting, filtering, verifying and transforming data types, data integrity and cleanliness was ensured. Additional fields were also created to provide for more detailed analysis capabilities.
 
 <br />
 
