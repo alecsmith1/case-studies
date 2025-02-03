@@ -35,7 +35,7 @@ Members' riding aligns with work commutes while casual rides happen throughout t
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
 
 #### **Members ride for much shorter duration than casual riders**
-Shorter average ride times (12 minutes) for members may indicate more utilitarian usage of bikes for purposes such as commutes or errands, while longer average ride times (62 minutes) for casual riders may indicate more leisurely riding.
+Ride durations for member vs. casual riders may further indicate utilitarian vs leisurely use.
 
 **Ride Duration** |	**Members**	|**Casual Riders**
 Avg.  duration|	12 mins	|62 mins
