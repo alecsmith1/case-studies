@@ -88,7 +88,11 @@ Additional marketing recommendations could be made via further data collection, 
 
 <br />
 
-<h1 style="text-align: center; font-weight: bold; color: #e97132;">Detailed Study & Analysis Process</h1>
+---
+
+<br />
+
+<h2 style="text-align: center; font-weight: bold; color: #e97132;">Detailed Study & Analysis Process</h2>
 
 <br />
 
