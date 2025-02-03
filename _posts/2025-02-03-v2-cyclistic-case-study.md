@@ -176,7 +176,7 @@ Data processing and cleaning was conducted in Excel. Via sorting, filtering, ver
 7. **Used formula** `=LEN()` **to check fields for uniform length** (fields checked: `ride_id`, `rideable_type`, `start_station_id`, `end_station_id`, and `member_casual`). No `=TRIM()` required.
 8. **Checked data formats**, setting a uniform Date format in the `started_at` and `ended_at` columns to ensure uniformity.
 
-_*Number of Records - Starting out: 426,887, Post-cleaning: 420,580_
+_*Number of Records - Starting out: 426,887 / Post-cleaning: 420,580_
 
 <br />
 
