@@ -204,7 +204,7 @@ Data analysis was conducted via SQL in BigQuery. The steps of my analysis, consi
 The `route` field had a character with an error in it, where a long hyphen “–” got turned into some sort foreign character like a “D” with a line through the left part. I modified the entries in this field.
 
 ```SQL
-UPDATE `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+UPDATE `case-study.cyclistic.2020_Q1_trip_data_cleaned`
 SET route = REPLACE(route, 'Ð', '-')
 WHERE route LIKE '%Ð%';
 ```
@@ -225,7 +225,7 @@ SELECT
     end_station_name,
     member_casual
 FROM 
-    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
+    `case-study.cyclistic.2020_Q1_trip_data_pared`
 ```
 
 _Pared down dataset schema:_ <br />
@@ -241,7 +241,7 @@ SELECT
     member_casual,
     COUNT(member_casual)
 FROM
-    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared`
+    `case-study.cyclistic.2020_Q1_trip_data_pared`
 GROUP BY
     member_casual
 ```
@@ -261,7 +261,7 @@ SELECT
     start_day_of_week,
     COUNT(start_day_of_week) AS num_of_rides
 FROM
-    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+    `case-study.cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
     member_casual,
     start_day_of_week
@@ -294,7 +294,8 @@ SELECT
         WHEN day_of_week IN (6, 7) THEN 'Weekend'
     END AS ride_category,  -- Classifies days into Weekday or Weekend
     COUNT(*) AS ride_count -- Counts the rides for each group
-FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+FROM
+    `case-study.cyclistic.2020_Q1_trip_data_pared`
 GROUP BY 
     member_casual, 
     ride_category
@@ -329,7 +330,7 @@ SELECT
     EXTRACT(HOUR FROM TIMESTAMP(started_at)) AS hour_of_day,
     COUNT(*) AS ride_count -- Count the number of rides
 FROM 
-    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+    `case-study.cyclistic.2020_Q1_trip_data_pared`
 WHERE
     member_casual = 'member' -- Query was run a 2nd time to assess 'casual' rider bike usage as well
 GROUP BY 
@@ -358,7 +359,7 @@ SELECT
     MAX(ride_duration_hrs) AS longest_ride_hrs,
     AVG(ride_duration_hrs) AS avg_ride_duration_hrs
 FROM 
-    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+    `case-study.cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
     member_casual
 ORDER BY
@@ -381,7 +382,7 @@ SELECT
     COUNT(route) AS total_rides,
     (COUNT(DISTINCT(route)) / COUNT(route)) * 100 AS unique_rides_as_percent_of_total
 FROM 
-    `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_pared` 
+    `case-study.cyclistic.2020_Q1_trip_data_pared` 
 GROUP BY
     member_casual
 ORDER BY
@@ -406,7 +407,8 @@ SELECT
     END AS same_or_diff_station,
     COUNT(*) AS ride_count, -- Total rides for each ride type
     ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY member_casual), 2) AS ride_percentage
-FROM `test-project-1-coursera-course.alec_case_study_cyclistic.2020_Q1_trip_data_cleaned`
+FROM
+    `case-study.cyclistic.2020_Q1_trip_data_pared`
 GROUP BY 
     member_casual, 
     same_or_diff_station
