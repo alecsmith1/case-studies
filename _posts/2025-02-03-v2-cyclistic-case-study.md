@@ -255,7 +255,7 @@ casual|44577
 #### **Assessing day-of-week bike usage**
 Next I asked which days of the week members and casual riders used bikes in order to help form initial hypotheses about bike usage habits. With this query I was able to get an aggregate of weekdays vs weekend days bike usage.
 
-```
+```SQL
 SELECT
     member_casual,
     start_day_of_week,
@@ -286,7 +286,7 @@ casual|	5|	4623
 casual|	6|	7465
 casual|	7|	14840
 
-```
+```SQL
 SELECT 
     member_casual,
     CASE
@@ -324,7 +324,7 @@ A deeper dive, crosschecking the original CSV with the data table in BigQuery, l
 #### **Assessing time-of-day bike usage**
 Following the day-of-week assessment, I wanted to hone in on which hours of the day members and casual riders each used Cyclistic bikes. The below SQL queries was utilized twice: once each to garner time-of-day bike usage for each members and casual riders.
 
-```
+```SQL
 SELECT 
     member_casual,
     EXTRACT(HOUR FROM TIMESTAMP(started_at)) AS hour_of_day,
@@ -332,7 +332,7 @@ SELECT
 FROM 
     `case-study.cyclistic.2020_Q1_trip_data_pared`
 WHERE
-    member_casual = 'member' -- Query was run a 2nd time to assess 'casual' rider bike usage as well
+    member_casual = 'member' -- Query run a 2nd time to assess 'casual' rider bike usage
 GROUP BY 
     member_casual, 
     hour_of_day
@@ -352,7 +352,7 @@ _**Casual rider** bike usage by hour:_
 #### **Assessing average ride duration**
 At this point, I wanted to further assess what the data appeared to be demonstrating, which is that members use bikes for commute purposes and casual riders use bikes for leisure. To further investigate I looked at average ride duration, anticipating that commutes to/from work would last ~20 minutes or less, while leisurely rides would longer, perhaps ~1 hour or longer, which proved to be true.
 
-```
+```SQL
 SELECT 
     member_casual,
     MIN(ride_duration_hrs) AS shortest_ride_hrs,
@@ -375,7 +375,7 @@ member | 0.02 | 173.73 | 0.20
 #### **Assessing percentage of unique routes**
 Another opportunity to evaluate the data was around the percentage of unique routes ridden by each the members and the casual riders. This helped evaluate the hypothesis that members would have a higher percentage of repetition in their routes ridden since they use the bikes for the same purpose regularly around commutes, while leisure riders would have a higher percentage of unique rides due to the more diverse nature of tourism or ways people experience the city for leisure. 
 
-```
+```SQL
 SELECT
     member_casual,
     COUNT(DISTINCT(route)) AS unique_routes,
@@ -398,7 +398,7 @@ casual | 16761 | 44577 | 37.60%
 #### **Assessing percentage of routes starting/ending at the same station**
 In a very similar sense to the unique routes percentage assessed above, I anticipated we'd see a higher rate of member rides that started and ended at different stations, since members may be commuting from point A to point B on their ride. And in contrast, I anticipated casual riders would have a higher percentage of their rides that started and ended in the same location since leisurely riders might be traveling in a tourist loop and/or need to dock the bikes back where they started at the end of their ride to return to their vehicle. This, too, proved to be true.
 
-```
+```SQL
 SELECT 
     member_casual, 
     CASE 
@@ -440,21 +440,21 @@ Let's visualize the data to see the clear bike usage trends that support these f
 
 <br />
 
-#### **1. Members favor weekdays, casual riders favor weekends** 
+#### **Members favor weekdays, casual riders favor weekends** 
 Members riding on business days while casual riders ride a lot on weekends may indicate business versus leisure usage of bikes.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
 <br />
 
-#### **2. Members ride before/after work day, casual rider usage more diverse**
+#### **Members ride before/after work day, casual rider usage more diverse**
 Member bike usage corresponds pretty cleanly with business hours, indicating likely use of bikes to commute, while casual riders pretty evenly from late morning through sundown.
 
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
 
 <br />
 
-#### **3. Members ride for much shorter duration than casual riders**
+#### **Members ride for much shorter duration than casual riders**
 Shorter average ride times (12 minutes) for members may indicate more utilitarian usage of bikes for purposes such as commutes or errands, while longer average ride times (62 minutes) for casual riders may indicate more leisurely riding.
 
 **Ride Duration** |	**Members**	|**Casual Riders**
@@ -462,14 +462,14 @@ Avg.  duration|	12 mins	|62 mins
 
 <br />
 
-#### **4. Members ride a much higher percentage of repeat routes**
+#### **Members ride a much higher percentage of repeat routes**
 In another demonstration that members likely use bikes for day-to-day commute, member riders have a much higher percentage of repeated routes ridden, compared to casual riders which have a more balanced blend of repeated and unique routes ridden.
 
 <img src="https://github.com/user-attachments/assets/0eb6465b-4dbe-4e2f-84ac-1b43c4499991" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/544732ff-1a4b-47bb-8cdf-ac4d9e19ca8c" alt="Alt Text" style="width:50%; height:auto;">
 
 <br />
 
-#### **5. Members nearly always ride from point A to point B**
+#### **Members nearly always ride from point A to point B**
 98% of members' rides start and end at different bike stations, again pointing to utilitarian usage for commute or to get from point A to point B. Casual riders, on the other hand, will often ride from point A to point B, but also start and end their ride at the same station with greater frequency, indicating potentially riding a loop for tourist type activities or to finish their ride back where they started perhaps to return to their vehicle.
 
 <img src="https://github.com/user-attachments/assets/b8cc6bb9-275d-4e08-95c1-bb8ff6b2ae01" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d74d28a5-a03a-49a6-a111-ad1ddbf29235" alt="Alt Text" style="width:50%; height:auto;">
