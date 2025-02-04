@@ -13,7 +13,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 - **Scenario**
   - Bike share company Cyclistic has found that its annual members are more profitable than casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
 - **Question / Business Task**
-  - As a data analyst, I've been tasked with answering the question - <span style="color:#e97132;"><i><strong>how do the bike usage habits of annual members differ from those of casual riders?</strong></i></span> - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
+  - As a data analyst, I've been tasked with answering the question - <span style="color:#156082;"><i><strong>how do the bike usage habits of annual members differ from those of casual riders?</strong></i></span> - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
 <br /> 
 
