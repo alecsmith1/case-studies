@@ -41,7 +41,7 @@ Members' week day riding vs casual riders' weekend riding may indicate business 
 
 <br />
 
-#### **Members commute, casual riders explore**
+#### **Members commute, casual riders ride on their own schedule**
 Members' riding aligns with work commutes while casual rides happen throughout the day.
 
 <img src="https://github.com/user-attachments/assets/f1632d6e-4aa0-4e4c-a4c4-0aa8489e9c3d" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/d46ec3c6-9d84-4d5d-9bb8-bfdeb5531985" alt="Alt Text" style="width:50%; height:auto;">
@@ -71,7 +71,7 @@ Members nearly always ride to get somewhere, while casual riders are more likely
 <br />
 
 ## **Recommendations**
-<span style="color:#e97132;"><strong>Cyclistic should execute campaigns aimed at converting casual riders to members</strong></span>. Reasoning:
+<span style="color:#00577e;background-color: bisque;"><strong>Cyclistic should execute campaigns aimed at converting casual riders to members</strong></span>. Reasoning:
 1. There are clear differences in the riding habits of members and casual riders.
 2. There are a wealth of casual Cyclistic riders to target.
 
