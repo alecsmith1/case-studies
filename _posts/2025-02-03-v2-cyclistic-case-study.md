@@ -26,7 +26,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br /> 
 
 ## **Findings / Analysis Summary**
-<span style="color:#00577e;background-color: bisque;"><strong>Takeaways from this analysis are clear:</strong></span>
+<span style="color:#00577e;background-color: #FAFA33;"><strong>Takeaways from this analysis are clear:</strong></span>
 
 
 1. <span style="color:#00577e;background-color: bisque;"><strong>Member riders tend to use bikes mostly for commute and utility.</strong></span>
