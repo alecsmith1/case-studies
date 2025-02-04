@@ -19,9 +19,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 
 ## **Analysis Process Overview**
 - **Data Collection** - <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">Internal Q1 2020 bike ride data</a> chosen for completeness and accuracy
-- **Cleaning** - conducted in Excel [testing](https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel)
--
--   <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel" target="_blank" rel="noopener noreferrer">(detailed list of cleaning steps & formulas used)</a>
+- **Cleaning** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-processing---conducted-in-excel" target="_blank" rel="noopener noreferrer">(detailed list of cleaning steps & formulas used)</a>
 - **Augmentation** - conducted in Excel <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-augmentation---steps-taken" target="_blank" rel="noopener noreferrer">(detailed list of augmentation steps & formulas used)</a>
 - **Analysis** - conducted via SQL in BigQuery <a href="https://alecsmith1.github.io/case-studies/2025/01/31/cyclistic-case-study.html#data-analysis---conducted-with-sql-in-bigquery" target="_blank" rel="noopener noreferrer">(detailed list of SQL queries & results)</a>
 
