@@ -2,7 +2,7 @@
 title: "Cyclistic Bikes - Membership Growth"
 subtitle: "Google Data Analytics Professional Certificate Case Study"
 author: "Alec Smith"
-date: 2025-02-03
+date: 2025-02-05
 ---
 
 Welcome! This analysis was conducted as a capstone project for the Google Data Analytics Professional Certificate based on a fictional bike share company. Thank you for reading. 
@@ -13,7 +13,7 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 - **Scenario**
   - Bike share company Cyclistic has found that its annual members are more profitable than casual one-off riders and has hypothesized that a marketing campaign geared at converting casual riders to members could drive future growth.
 - **Question / Business Task**
-  - As a data analyst, I've been tasked with answering the question - <span style="color:#00577e;background-color: #FFEA00;"><i><strong>how do the bike usage habits of annual members differ from those of casual riders?</strong></i></span> - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
+  - As a data analyst, I've been tasked with answering the question - <span style="color:#156082;background-color: #FFEA00;"><i><strong>how do the bike usage habits of annual members differ from those of casual riders?</strong></i></span> - and reporting my findings to key stakeholders, the Director of Marketing and Executive team.
 
 <br /> 
 
@@ -26,16 +26,16 @@ Welcome! This analysis was conducted as a capstone project for the Google Data A
 <br /> 
 
 ## **Findings / Analysis Summary**
-<span style="color:#00577e;background-color: #FFEA00;"><strong>Takeaways from this analysis are clear:</strong></span>
+<span style="color:#156082;background-color: #FFEA00;"><strong>Takeaways from this analysis are clear:</strong></span>
 
 
-1. <span style="color:#00577e;background-color: #FFEA00;"><strong>Member riders tend to use bikes mostly for commute and utility.</strong></span>
-2. <span style="color:#00577e;background-color: #FFEA00;"><strong>Casual riders appear to use bikes for leisure and/or tourism.</strong></span>
+1. <span style="color:#156082;background-color: #FFEA00;"><strong>Member riders tend to use bikes mostly for commute and utility.</strong></span>
+2. <span style="color:#156082;background-color: #FFEA00;"><strong>Casual riders appear to use bikes for leisure and/or tourism.</strong></span>
 
 <br />
 
 #### **Members favor weekdays, casual riders favor weekends** 
-Members' week day riding vs casual riders' weekend riding may indicate business vs leisure use.
+Members' weekday riding vs casual riders' weekend riding may indicate business vs leisure use.
 
 <img src="https://github.com/user-attachments/assets/8a24fc83-df69-4967-a0fa-593750791418" alt="Alt Text" style="width:50%; height:auto;"><img src="https://github.com/user-attachments/assets/cd37988f-cb09-4ae8-800e-6eac5e303f57" alt="Alt Text" style="width:50%; height:auto;">
 
@@ -71,7 +71,7 @@ Members nearly always ride to get somewhere, while casual riders are more likely
 <br />
 
 ## **Recommendations**
-<span style="color:#00577e;background-color: #FFEA00;"><strong>Cyclistic should execute campaigns aimed at converting casual riders to members</strong></span>. Reasoning:
+<span style="color:#156082;background-color: #FFEA00;"><strong>Cyclistic should execute campaigns aimed at converting casual riders to members</strong></span>. Reasoning:
 1. There are clear differences in the riding habits of members and casual riders.
 2. There are a wealth of casual Cyclistic riders to target.
 
@@ -82,7 +82,7 @@ Members nearly always ride to get somewhere, while casual riders are more likely
 
 <br />
 
-## **Continuing analysis via additional data collection**
+## **Continuing Analysis via Additional Data Collection**
 Additional marketing recommendations could be made via further data collection, such as:
 - **Pricing Data (internal)** - _Would switching to the annual subscription provide cost savings?_
 - **Annual Member Data (survey)** - _What aspects of membership do members value most? e.g. cost or time savings? health or environment benefits? eliminating traffic or parking concerns? etc._
@@ -94,7 +94,7 @@ Additional marketing recommendations could be made via further data collection, 
 
 <br />
 
-<h2 style="text-align: center; font-weight: bold; color: #e97132;">Detailed Study & Analysis Process</h2>
+<h2 style="text-align: center; font-weight: bold; color: #156082;"><u></u>Detailed Study & Analysis Process</u></h2>
 
 <br />
 
@@ -107,6 +107,10 @@ Additional marketing recommendations could be made via further data collection, 
 - **Company –** Cyclistic - fictional Chicago bike share company
 - **Offering –** single-ride passes, full-day passes, annual memberships
 - **Fleet –** 5,824 bikes across 692 stations
+
+<br />
+
+---
 
 <br />
 
@@ -431,7 +435,7 @@ member | Same Station | 7481 | 1.99%
 
 <br />
 
-## **Sharing (Interpreting the Analysis)**
+## **Interpreting the Analysis**
 
 Takeaways are pretty clear cut from this data set:
 1. Member riders tend to use bikes mostly for commutes as well as tasks like errands during their week.
@@ -481,7 +485,7 @@ In another demonstration that members likely use bikes for day-to-day commute, m
 
 <br />
 
-## **Recommendations (Acting on Our Findings)**
+## **Recommendations**
 
 <br />
 
